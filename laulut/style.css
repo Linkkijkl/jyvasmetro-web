@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+}
+
+.header {
+    position: -webkit-sticky;
+    /*safari*/
+    position: sticky;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+    background: #0567F5;
+}
+
+.logo {
+    float: left;
+    margin: auto;
+    width: 30%;
+    height: auto;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+.topnav {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    top: 10%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.topnav a {
+    color: #f9f9f9;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    background: #FF4100;
+    font-size: 17px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.topnav a:hover {
+    color: #0567F5;
+    background-color: #f9f9f9;
+}
+
+.toc_container {
+    color: #f9f9f9;
+    background: #FF4100 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+    width: auto;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.toc_container a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+.toc_container p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+.toc_container a:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0567F5;
+}
+
+.laululista {
+    margin: auto;
+    margin-bottom: 1em;
+    width: auto;
+}
+
+.laululista h5 {
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.laululista h3 {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+#ylos {
+    margin-right: 40pt;
+    float: right;
+    opacity: 0.75;
+}
+
+#ylos:hover {
+    opacity: 1;
+}
+
+
+/*Floating Back-To-Top Button
+*/
+
+#myBtn {
+    position: fixed;
+    bottom: 1%;
+    margin: 0;
+    max-width: 30pt;
+    width: 100%;
+    font-size: 20pt;
+    border-color: #0567F5;
+    background-color: #FF4100;
+    padding: 1pt;
+    border-radius: 7pt;
+    color: white;
+}
+
+
+/*On Hover Color Change*/
+
+#myBtn:hover {
+    background-color: #FF4100;
+    cursor: pointer;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.6em;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.toc_title {
+    margin: 0.7em;
+}

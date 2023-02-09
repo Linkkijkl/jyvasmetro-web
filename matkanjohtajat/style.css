@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, h1, h2, h3, h4, h5, h6, section, p, pre, code, input, select, textarea, button, a, span, label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #2d3239;
+    line-height: 1.42857143;
+    vertical-align: baseline;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table th,
+td {
+    border: 1px solid;
+    padding: 1em;
+}

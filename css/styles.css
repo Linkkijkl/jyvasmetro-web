@@ -1,0 +1,150 @@
+* {
+  max-width: 100% !important;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  padding: 0 !important;
+  margin-left: none !important;
+  margin-right: none !important;
+  margin-bottom: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+  max-width: 100% !important;
+}
+
+
+.metro-header {
+  text-align: right;
+  color:blue;
+/* #0064ff;*/
+  font-style: italic;
+  width: 99%;
+  margin-right: -10%;
+}
+
+#otsikko {
+  font-size: 300%;
+  font-weight: 300;
+}
+
+.bg-primary {
+  background-color: transparent !important;
+  background: url("../images/SubwayGIF.gif");
+  background-size: cover;
+  width: 100%;
+  margin: 0 !important;
+  padding: 8% !important;
+  max-width: 100% !important;
+}
+
+section {
+  padding: 50px 2% 50px 2%;
+  text-align: center;
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.container {
+  margin: auto;
+  padding: 0 !important;
+  text-align: center;
+  max-width: 100% !important;
+}
+
+.bg-dark {
+  background-color: #FF4100 !important;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.sininen {
+  background: #f0f0f0;  /* fallback for old browsers */
+  color: black;
+}
+
+.oranssi {
+  background-color: rgba(255, 65, 0, 0.8);
+  color: white;
+}
+
+.oranssi-teksti {
+  color: rgba(255, 65, 0);
+}
+
+.sininen-teksti {
+  color: blue;
+}
+
+.vasen {
+  text-align: left !important;
+  padding-left: 5%;
+}
+
+.oikea {
+  text-align: left !important;
+  padding-right: 5%;
+}
+
+.credit {
+  position: relative;
+  width: 100%;
+  margin-bottom: -2.3%;
+}
+
+.creditText {
+  position: absolute;
+  font-size: x-small;
+  right: 0;
+}
+
+#countdown {
+  background-color: rgba(255, 65, 0, 1);
+  color: white;
+  font-size: 175%;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  opacity: 100%;
+}
+
+#somet {
+  font-size: 200%;
+}
+  
+/* Pienemmillä näytöillä yläheaderiin marginia*/
+@media screen and (max-width: 450px) {
+  body {
+    margin-top: 15% !important;
+    margin-left: none !important;
+    margin-right: none !important;
+    margin-bottom: none !important;
+    max-width: 100% !important;
+  }
+}
+
+.imgcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.companyLogo {
+  display: block;
+  padding: 2%;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
