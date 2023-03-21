@@ -60,13 +60,13 @@ header {
 
 @media (max-width: 750px) {
   #background-video {
-    height: 65vh;
+    height: 70vh;
   }
 }
 
 @media (max-width: 450px) {
   #background-video {
-    height: 45vh;
+    height: 50vh;
   }
 }
 
