@@ -5,12 +5,14 @@
 
 body {
   padding: 0 !important;
-  margin-left: none !important;
-  margin-right: none !important;
-  margin-bottom: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
   overflow-x: hidden;
+  background-color: #FF4100 !important;
+  font-size: large;
 }
 
 header {
@@ -36,13 +38,50 @@ header {
 
 .bg-primary {
   background-color: transparent !important;
-  background: url("../images/SubwayGIF.gif");
+  /*background: url("../images/SubwayGIF.gif");*/
   background-size: cover;
   width: 100%;
   margin: 0 !important;
-  padding: 8% !important;
+  padding: 18% 9% 9% 9% !important;
   max-width: 100% !important;
 }
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+  #background-video {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 450px) {
+  #background-video {
+    height: 45vh;
+  }
+}
+
+.credit {
+  position: relative;
+  width: 100%;
+  /*margin-bottom: -2.3%;*/
+}
+
+.creditText {
+  position: absolute;
+  font-size: x-small;
+  right: 0;
+}
+
 
 section {
   padding: 50px 2% 50px 2%;
@@ -66,44 +105,28 @@ section {
   max-width: 100% !important;
 }
 
-.sininen {
-  background: #f0f0f0;  /* fallback for old browsers */
-  color: black;
+.grey-section {
+  background: #f0f0f0;
 }
 
-.oranssi {
-  background-color: rgba(255, 65, 0, 0.8);
-  color: white;
+.white-section {
+  background: white;
 }
 
-.oranssi-teksti {
+.orange-text {
   color: rgba(255, 65, 0);
 }
 
-.sininen-teksti {
+.blue-text {
   color: blue;
 }
 
-.vasen {
-  text-align: left !important;
-  padding-left: 5%;
-}
-
-.oikea {
-  text-align: left !important;
-  padding-right: 5%;
-}
-
-.credit {
-  position: relative;
-  width: 100%;
-  margin-bottom: -2.3%;
-}
-
-.creditText {
-  position: absolute;
-  font-size: x-small;
-  right: 0;
+.text-align-center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #countdown {
@@ -116,19 +139,67 @@ section {
   width: 100%;
   z-index: 1;
   opacity: 100%;
+  white-space: nowrap;
 }
 
 #somet {
   font-size: 200%;
 }
-  
-/* Pienemmillä näytöillä yläheaderiin marginia*/
+
+.row-custom {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.event-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-image {
+  width: 800px;
+}
+
+.filter {
+  position: relative;
+}
+
+.filter::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.filter-blue::before {
+  background: blue;
+}
+
+.filter-orange::before {
+  background: rgba(255, 65, 0, 1);
+}
+
+.instagram-section {
+  padding: 2% !important;
+}
+
+.instagram-embed {
+  align-items: center;
+  justify-content: center;
+}
+iframe {
+  margin: 0 !important;
+}
+
 @media screen and (max-width: 450px) {
   body {
-    margin-top: 15% !important;
-    margin-left: none !important;
-    margin-right: none !important;
-    margin-bottom: none !important;
+    margin: 15% 0 0 !important;
     max-width: 100% !important;
   }
 }

@@ -16,17 +16,15 @@ body {
 .logo {
     float: left;
     margin: auto;
-    width: 30%;
+    width: 300px;
     height: auto;
-    min-width: 20%;
-    min-height: 20%;
 }
 
 .topnav {
     margin: auto;
     display: inline-block;
     width: 100%;
-    top: 10%;
+    top: 0;
     position: relative;
     border-radius: 20px;
 }
