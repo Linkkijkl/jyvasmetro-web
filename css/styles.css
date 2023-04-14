@@ -11,10 +11,10 @@
 }
 
 @font-face {
-  font-family: 'DisketMonoBold';
+  font-family: 'DisketMono';
   src: url('../fonts/Disket-Mono-Bold.woff2') format('woff2'),
   url('../fonts/Disket-Mono-Bold.woff') format('woff');
-  font-weight: normal;
+  font-weight: Bold;
   font-style: normal;
 }
 
@@ -33,12 +33,12 @@ body {
   font-size: large;
 }
 
-.navbar, .footer, h2 {
+.navbar, .footer, h1, h2 {
   font-family: 'DisketMono', 'Karla', sans-serif;
 }
 
 h1 {
-  font-family: 'DisketMonoBold', 'Karla', sans-serif;
+  font-weight: bold;
 }
 
 header {
