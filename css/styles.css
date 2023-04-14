@@ -1,9 +1,27 @@
 * {
   max-width: 100% !important;
-  font-family: 'Karla', sans-serif;
+}
+
+@font-face {
+  font-family: 'DisketMono';
+  src: url('../fonts/Disket-Mono-Regular.woff2') format('woff2'),
+  url('../fonts/Disket-Mono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DisketMonoBold';
+  src: url('../fonts/Disket-Mono-Bold.woff2') format('woff2'),
+  url('../fonts/Disket-Mono-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   padding: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -15,20 +33,18 @@ body {
   font-size: large;
 }
 
+.navbar, .footer, h2 {
+  font-family: 'DisketMono', 'Karla', sans-serif;
+}
+
+h1 {
+  font-family: 'DisketMonoBold', 'Karla', sans-serif;
+}
+
 header {
   text-align: center;
   justify-content: center;
   max-width: 100% !important;
-}
-
-
-.metro-header {
-  text-align: right;
-  color: rgba(6, 91, 215);
-/* #0064ff;*/
-  font-style: italic;
-  width: 99%;
-  margin-right: -10%;
 }
 
 #otsikko {
@@ -132,6 +148,7 @@ section {
 }
 
 #countdown {
+  font-family: 'DisketMono', 'Karla', sans-serif;
   background-color: rgba(255, 72, 4);
   color: white;
   font-size: 175%;
