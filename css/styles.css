@@ -11,7 +11,7 @@ body {
   width: 100% !important;
   max-width: 100% !important;
   overflow-x: hidden;
-  background-color: #FF4100 !important;
+  background-color: rgba(255, 72, 4) !important;
   font-size: large;
 }
 
@@ -24,7 +24,7 @@ header {
 
 .metro-header {
   text-align: right;
-  color:blue;
+  color: rgba(6, 91, 215);
 /* #0064ff;*/
   font-style: italic;
   width: 99%;
@@ -98,7 +98,7 @@ section {
 }
 
 .bg-dark {
-  background-color: #FF4100 !important;
+  background-color: rgba(255, 72, 4) !important;
   color: white;
   text-transform: uppercase;
   width: 100%;
@@ -107,18 +107,20 @@ section {
 
 .grey-section {
   background: #f0f0f0;
+  padding: 25px 2% 25px 2%;
 }
 
 .white-section {
   background: white;
+  padding: 25px 2% 25px 2%;
 }
 
 .orange-text {
-  color: rgba(255, 65, 0);
+  color: rgba(255, 72, 4);
 }
 
 .blue-text {
-  color: blue;
+  color: rgba(6, 91, 215);
 }
 
 .text-align-center {
@@ -130,7 +132,7 @@ section {
 }
 
 #countdown {
-  background-color: rgba(255, 65, 0, 1);
+  background-color: rgba(255, 72, 4);
   color: white;
   font-size: 175%;
   text-align: center;
@@ -151,7 +153,8 @@ section {
 }
 
 .event-image-wrapper {
-  display: flex;
+  margin-top: 1rem;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
@@ -177,11 +180,11 @@ section {
 }
 
 .filter-blue::before {
-  background: blue;
+  background: rgba(6, 91, 215);
 }
 
 .filter-orange::before {
-  background: rgba(255, 65, 0, 1);
+  background: rgba(255, 72, 4);
 }
 
 .instagram-section {
@@ -215,8 +218,7 @@ iframe {
   padding: 2%;
   width: auto;
   height: auto;
-  max-width: 200px;
-  max-height: 200px;
+  max-height: 180px;
 }
 
 @media (max-width: 475px) {
