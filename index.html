@@ -387,7 +387,12 @@
     // If the countdown is over, write some text
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("countdown").innerHTML = "Metro on alkanut";
+      // If countdown ended 14 hours ago, change the text to ended, otherwise started
+      if (distance < -50400000) {
+        document.getElementById("countdown").innerHTML = "Jyväsmetro on päättynyt";
+      } else {
+        document.getElementById("countdown").innerHTML = "Jyväsmetro on alkanut";
+      }
     }
   }, 1000);
 </script>
