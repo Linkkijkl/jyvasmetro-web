@@ -10,11 +10,8 @@ jobs:
       run:
         working-directory: ./  
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-          lfs: true
+      - name: Check out code
+        uses: actions/checkout@v4
 
       - name: Deploy
         uses: up9cloud/action-rsync@master
