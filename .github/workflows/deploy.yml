@@ -19,7 +19,9 @@ jobs:
         with:
           node-version: 18
       - run: npm install -g static-i18n
-      - run: static-i18n -l fi -i fi -i en www
+      - run: static-i18n -l fi -i fi -i en www -o .
+
+      - name: 
 
       - name: Deploy
         uses: up9cloud/action-rsync@master
