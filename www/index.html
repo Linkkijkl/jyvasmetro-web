@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jyväsmetro</title>
+    <title data-t="event.name"></title>
 
     <!-- Bootstrap core CSS -->
     <link
@@ -28,12 +28,12 @@
             crossorigin="anonymous"></script>
 
     <!-- Custom styles for this template -->
-    <link href="css/styles.css?v=1.7" rel="stylesheet">
+    <link href="/css/styles.css?v=1.7" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
 </head>
 
@@ -42,7 +42,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="https://linkkijkl.fi/" target="_blank">Linkki Jyväskylä ry</a>
+        <a class="navbar-brand js-scroll-trigger" href="https://linkkijkl.fi/" target="_blank" data-t>event.organizer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,31 +50,31 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#info">jyväsmetro</a>
+                    <a class="nav-link js-scroll-trigger" href="#info" data-t>event.name</a>
                 </li>
                 <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#matkanjohtajahaku">Matkanjohtajaksi?</a>
+                    <a class="nav-link js-scroll-trigger" href="#matkanjohtajahaku" data-t>section.guide-application.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#mita">Mitä?</a>
+                    <a class="nav-link js-scroll-trigger" href="#mita" data-t>section.what.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti">Lipunmyynti</a>
+                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti" data-t>section.tickets.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#jatkot">Jatkot</a>
+                    <a class="nav-link js-scroll-trigger" href="#jatkot" data-t>section.afterparty.title</a>
                 </li>
                 <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti_vaihto_info">Lipunvaihto ja info</a>
+                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti_vaihto_info" data-t>section.ticket-exchange.title</a>
 		        </li>
                 <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#aikataulu">Aikataulu</a>
+                    <a class="nav-link js-scroll-trigger" href="#aikataulu" data-t>section.timetable.title</a>
 		        </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#baarit">Yhteistyökumppanit</a>
+                    <a class="nav-link js-scroll-trigger" href="#baarit" data-t>section.partners.menu-title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/laulut">Laulut</a>
+                    <a class="nav-link js-scroll-trigger" href="/laulut" data-t>section.songs.title</a>
                 </li>
             </ul>
         </div>
@@ -83,12 +83,12 @@
 
 <header class="bg-primary text-white">
     <video id="background-video" playsinline autoplay loop muted poster="">
-        <source src="images/jyvasmetro.mp4" type="video/mp4">
+        <source src="/images/jyvasmetro.mp4" type="video/mp4">
     </video>
     <div class="container">
         <div class="col-lg-7 col-md-6 mx-auto logo-container">
-            <img src="images/logo_transparent.png" alt="metro"/>
-            <div class="overlay-text">25.4.2024</div>
+            <img src="/images/logo_transparent.png" alt="metro"/>
+            <div class="overlay-text" data-t>event.date</div>
         </div>
     </div>
 </header>
@@ -99,51 +99,26 @@
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-8 col-md-6 col-sm 4 mx-auto" hidden>
-                <h1 class="blue-text">Jyväsmetro 2024</h1>
+                <h1 class="blue-text" data-t>event.name-with-year</h1>
                 <br>
-                <h4>Coming soon... Seuraa <a href="https://www.instagram.com/jyvasmetro">Instassa</a> pysyäksesi matkassa mukana!</h4>
+                <h4 data-t>section.info.coming-soon</h4>
             </div>
             <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
-                <h1 class="blue-text">Jyväsmetro 2024</h1>
+                <h1 class="blue-text" data-t>event.name-with-year</h1>
                 <br>
                 <p>
                     <a
                         class="big-link js-scroll-trigger"
                         href="#lipunmyynti"
                         style="color: dodgerblue; font-weight: 600;"
-                    >
-                    ⇓ Lipunmyyntiin ⇓
-                    </a>
+                        data-t="section.info.to-sales"
+                    ></a>
                 </p>
-                <p>
-                    Jäitkö ilman lippua, tai jäikö lippu ylimääräiseksi? Osta ja myy metroliput 
-                    <a
-                        href="https://app.ticketless.fi/events/8"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style="color: dodgerblue; font-weight: 600;"
-                    >Ticketless</a>:ssä!
-                </p>
-                <p>Mukana olevista baareista, jatkoista, yhteistyökumppaneista ja lipunmyynnistä voit lukea lisää
-                    alta!</p>
+                <p data-t>section.info.secondary-market</p>
+                <p data-t>section.info.p1</p>
                 <br>
-                <p>Pysy perillä kaikesta Metroon liittyvästä seuraamalla Jyväsmetroa <a
-                        href="https://www.instagram.com/jyvasmetro/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style="color: dodgerblue; font-weight: 600;"
-                    >
-                        Instagramissa</a>, sekä liittymällä <a
-                        href="https://t.me/jyvasmetro2024"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style="color: dodgerblue; font-weight: 600;"
-                    >
-                        Telegram-tiedotuskanavalle
-                    </a>
-                </p>
-                <p>Tapahtumapäivänä järjestetään myös klassinen fiilis- ja haikukilpailu, joista tiedotetaan
-                    tapahtumapäivänä tapahtuman Instagramissa.</p>
+                <p data-t>section.info.follow</p>
+                <p data-t>section.info.p2</p>
             </div>
         </div>
     </div>
@@ -154,19 +129,13 @@
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
                 <figure class="filter filter-blue">
-                    <img class="event-image" src="images/2022-04.jpg" alt=""/>
+                    <img class="event-image" src="/images/2022-04.jpg" alt=""/>
                 </figure>
             </div>
             <div class="col-lg-6 col-md-6 mx-auto text-align-center">
-                <h2 class="orange-text">Mitä?</h2>
-                <p>Tapahtuman konseptina on kiertää busseilla Jyväskylän lähialueen anniskeluravintoloita rennossa
-                    hengessä ja nauttia hyvästä poikkitieteellisestä seurasta.</p>
-                <p hidden>Vuonna 2023 kiersimme baareja muunmuassa keskustassa, Kortepohjassa, Muuramessa, Keljossa ja
-                    Kuokkalassa. Jatkot järjestettiin illan päätteeksi keskustassa Escapessa, jonne osallistujilla oli
-                    ilmainen sisäänpääsy tapahtumarannekkeella.</p>
-                <p>Busseissa matkustusmukavuudesta ja huipputunnelman ylläpitämisestä vastaavat osaavat ja mukavat
-                    matkanjohtajat. Jyväsmetro on myös poikkitieteellinen tapahtuma, joten pääset myös tutustumaan ja
-                    pitämään hauskaa muiden ainejärjestöjen opiskelijoiden kanssa!</p>
+                <h2 class="orange-text" data-t>section.what.title</h2>
+                <p data-t>section.what.p1</p>
+                <p data-t>section.what.p2</p>
             </div>
         </div>
     </div>
@@ -177,14 +146,14 @@
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
                 <figure class="filter filter-blue">
-                    <img class="event-image" src="images/2022-04.jpg" alt=""/>
+                    <img class="event-image" src="/images/2022-04.jpg" alt=""/>
                 </figure>
             </div>
             <div class="col-lg-6 col-md-6 mx-auto text-align-center">
-                <h2 class="orange-text">Matkanjohtajaksi?</h2>
-                <p>Jyväsmetro on historiansa suurin vuonna 2024, joten tarvitsemme entistä enemmän matkanjohtajia huolehtimaan metrolinjojen tunnelmasta. Jos siis haluat ikioman metrolinjan josta voit tehdä oman näköisesi, jätä hakemus matkanjohtajatiimiin alla.</p>
-                <p>Matkanjohtajat saavat työstään myös hienoja etuja, kuten ilmaisen pääsyn tapahtumaan, pääsyn jatkoille jonon ohi sekä drinkkilippuja. Järjestäminen näyttää myös hyvältä CV:ssä, sekä saat hienon Jyväsmetro-paidan!</p>
-                <p><a href="/matkanjohtajahaku">Hae matkanjohtajaksi tästä</a></p>
+                <h2 class="orange-text" data-t>section.guide-application.title</h2>
+                <p data-t>section.guide-application.p1</p>
+                <p data-t>section.guide-application.p2</p>
+                <p><a href="/matkanjohtajahaku" data-t>section.guide-application.apply</a></p>
             </div>
         </div>
     </div>
@@ -193,13 +162,13 @@
 <section id="lipunmyynti" class="white-section">
     <div class="container">
         <div class="row row-custom">
-            <div class="col-lg-6 col-md-6 mx-auto text-align-center"><h2 class="orange-text">Lipunmyynti</h2>
-                <p>Ainejärjestöjen myynti alkaa 1.4. niiden ainejärjestöjen osalta, jotka ovat varannet oman lippukannan. Linkin lipunmyyntiin löydät oman ainejärjestösi tiedotuskanavasta. <a href="https://kide.app/events/85594ebd-1398-4673-8790-eb22346b1489" target="_blank" rel="noopener noreferrer" style="color: dodgerblue; font-weight: 600;">Yleinen lipunmyynti</a> aukeaa 11.4.</p>
-                <p>Nosta Jyväsmetro kokemuksesi seuraavalle tasolle nousemalla <a href="https://kide.app/events/6dba4777-1309-4c12-b3cf-933a273b0bad" target="_blank" rel="noopener noreferrer" style="color: dodgerblue; font-weight: 600;">VIP-linjan</a> kyytiin. Erikoisuuksiin kuuluu mm. puuhapussi, kuohuviinitarjoilu ja jonon ohitus jatkoille. VIP-linja tulee myyntiin 1.4.</p>
+            <div class="col-lg-6 col-md-6 mx-auto text-align-center"><h2 class="orange-text" data-t>section.tickets.title</h2>
+                <p data-t>section.tickets.p1</p>
+                <p data-t>section.tickets.p2</p>
             </div>
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
                 <figure class="filter filter-orange">
-                    <img class="event-image" src="images/2022-03.jpg" alt=""/>
+                    <img class="event-image" src="/images/2022-03.jpg" alt=""/>
                 </figure>
             </div>
         </div>
@@ -211,12 +180,12 @@
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
                 <figure class="filter filter-blue">
-                    <img class="event-image" src="images/2022-01.jpg" alt=""/>
+                    <img class="event-image" src="/images/2022-01.jpg" alt=""/>
                 </figure>
             </div>
             <div class="col-lg-6 col-md-6 mx-auto text-align-center">
-                <h2 class="orange-text">Jatkot</h2>
-                <p>Metrojatkot vievät tänä vuonna Londoniin, jossa on tarjolla live-musiikkia ja mahtavaa menoa!</p>
+                <h2 class="orange-text" data-t>section.afterparty.title</h2>
+                <p data-t>section.afterparty.p1</p>
             </div>
         </div>
     </div>
@@ -288,15 +257,15 @@
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto text-align-center">
-                <h2 class="orange-text">Tapahtuman aikataulu</h2>
-                <img src="images/Aikataulu.JPG" alt=""/>
+                <h2 class="orange-text" data-t>section.timetable.title</h2>
+                <img src="/images/Aikataulu.JPG" alt=""/>
             </div>
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
                 <figure class="filter filter-blue">
-                    <img class="event-image" src="images/2022-02.jpg" alt=""/>
+                    <img class="event-image" src="/images/2022-02.jpg" alt=""/>
                 </figure>
                 <figure class="filter filter-orange">
-                    <img class="event-image" src="images/2022-04.jpg" alt=""/>
+                    <img class="event-image" src="/images/2022-04.jpg" alt=""/>
                 </figure>
             </div>
         </div>
@@ -307,7 +276,7 @@
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
-                <h2 class="blue-text">Yhteistyö&shy;kumppanit 2024</h2>
+                <h2 class="blue-text" data-t>section.partners.title</h2>
                 <div class="imgcontainer">
                     <img src="/images/sponsors/Tuiteri.png" class="companyLogo" alt="Bar Tuiteri"/>
                     <img src="/images/sponsors/Muurmanni.png" class="companyLogo" alt="Muurmanni"/>
@@ -409,7 +378,7 @@
 <!-- Footer -->
 <footer class="py-5 bg-dark footer">
     <div class="container">
-        <p class="m-0 text-center text-white">&copy; Linkki Jyväskylä ry</p>
+        <p class="m-0 text-center text-white">&copy; <span data-t>event.organizer</span> <span data-t>event.year</span></p>
         <div id="somet">
             <a href="https://www.facebook.com/jyvasmetro/" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/jyvasmetro/" class="fa fa-instagram"></a>
@@ -420,14 +389,20 @@
 </footer>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 <!-- Custom JavaScript for this theme -->
-<script src="js/scripts.js"></script>
+<script src="/js/scripts.js"></script>
+
+<div hidden>
+    <span id="time-until" data-t>section.countdown.time-until</span>
+    <span id="has-begun" data-t>section.countdown.has-begun</span>
+    <span id="has-ended" data-t>section.countdown.has-ended</span>
+</div>
 
 <!-- countdown JS-->
 <script>
@@ -450,7 +425,7 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="countdown"
-    document.getElementById("countdown").innerHTML = "Metroon aikaa " + days + "d " + hours + "h "
+    document.getElementById("countdown").innerHTML = document.getElementById("time-until").innerText + " " + days + "d " + hours + "h "
       + minutes + "m " + seconds + "s ";
 
     // If the countdown is over, write some text
@@ -458,9 +433,9 @@
       clearInterval(x);
       // If countdown ended 14 hours ago, change the text to ended, otherwise started
       if (distance < -50400000) {
-        document.getElementById("countdown").innerHTML = "Jyväsmetro on päättynyt";
+        document.getElementById("countdown").innerHTML = document.getElementById("has-begun").innerText;
       } else {
-        document.getElementById("countdown").innerHTML = "Jyväsmetro on alkanut";
+        document.getElementById("countdown").innerHTML = document.getElementById("has-ended").innerText;
       }
     }
   }, 1000);

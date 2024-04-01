@@ -1,0 +1,67 @@
+{
+    "event": {
+        "name": "Jyväsmetro",
+        "year": "2024",
+        "name-with-year": "Jyväsmetro 2024",
+        "date": "25.04.2024",
+        "organizer": "Linkki Jyväskylä ry"
+    },
+
+    "section": {
+        "guide-application": {
+            "title": "Matkan&shy;johtajaksi?",
+            "p1": "Jyväsmetro on historiansa suurin vuonna 2024, joten tarvitsemme entistä enemmän matkanjohtajia huolehtimaan metrolinjojen tunnelmasta. Jos siis haluat ikioman metrolinjan josta voit tehdä oman näköisesi, jätä hakemus matkanjohtajatiimiin alla.",
+            "p2": "Matkanjohtajat saavat työstään myös hienoja etuja, kuten ilmaisen pääsyn tapahtumaan, pääsyn jatkoille jonon ohi sekä drinkkilippuja. Järjestäminen näyttää myös hyvältä CV:ssä, sekä saat hienon Jyväsmetro-paidan!",
+            "apply": "Hae matkanjohtajaksi tästä"
+        },
+
+        "info": {
+            "coming-soon": "Coming soon... Seuraa <a href=\"https://www.instagram.com/jyvasmetro\">Instassa</a> pysyäksesi matkassa mukana!",
+            "to-sales": "⇓ Lipunmyyntiin ⇓",
+            "secondary-market": "Jäitkö ilman lippua, tai jäikö lippu ylimääräiseksi? Osta ja myy metroliput <a href=\"https://app.ticketless.fi/events/8\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Ticketless</a>:ssä!",
+            "p1": "Mukana olevista baareista, jatkoista, yhteistyökumppaneista ja lipunmyynnistä voit lukea lisää alta!",
+            "follow": "Pysy perillä kaikesta Metroon liittyvästä seuraamalla Jyväsmetroa <a href=\"https://www.instagram.com/jyvasmetro/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Instagramissa</a>, sekä liittymällä <a href=\"https://t.me/jyvasmetro2024\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Telegram-tiedotuskanavalle</a>",
+            "p2": "Tapahtumapäivänä järjestetään myös klassinen fiilis- ja haikukilpailu, joista tiedotetaan tapahtumapäivänä tapahtuman Instagramissa."
+        },
+
+        "what": {
+            "title": "Mitä?",
+            "p1": "Tapahtuman konseptina on kiertää busseilla Jyväskylän lähialueen anniskeluravintoloita rennossa hengessä ja nauttia hyvästä poikkitieteellisestä seurasta.",
+            "p2": "Busseissa matkustusmukavuudesta ja huipputunnelman ylläpitämisestä vastaavat osaavat ja mukavat  matkanjohtajat. Jyväsmetro on myös poikkitieteellinen tapahtuma, joten pääset myös tutustumaan ja             pitämään hauskaa muiden ainejärjestöjen opiskelijoiden kanssa!"
+        },
+
+        "tickets": {
+            "title": "Lipunmyynti",
+            "p1": "Ainejärjestöjen myynti alkaa 1.4. niiden ainejärjestöjen osalta, jotka ovat varannet oman lippukannan. Linkin lipunmyyntiin löydät oman ainejärjestösi tiedotuskanavasta. <a href=\"https://kide.app/events/85594ebd-1398-4673-8790-eb22346b1489\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Yleinen lipunmyynti</a> aukeaa 11.4.",
+            "p2": "Nosta Jyväsmetro kokemuksesi seuraavalle tasolle nousemalla <a href=\"https://kide.app/events/6dba4777-1309-4c12-b3cf-933a273b0bad\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">VIP-linjan</a> kyytiin. Erikoisuuksiin kuuluu mm. puuhapussi, kuohuviinitarjoilu ja jonon ohitus jatkoille. VIP-linja tulee myyntiin 1.4."
+        },
+
+        "afterparty": {
+            "title": "Jatkot",
+            "p1": "Metrojatkot vievät tänä vuonna Londoniin, jossa on tarjolla live-musiikkia ja mahtavaa menoa!"
+        },
+
+        "ticket-exchange": {
+            "title": "Lipunvaihto ja info"
+        },
+
+        "timetable": {
+            "title": "Aikataulu"
+        },
+
+        "partners": {
+            "menu-title": "Yhteistyökumppanit",
+            "title": "Yhteistyö&shy;kumppanit 2024"
+        },
+
+        "songs": {
+            "title": "Laulut"
+        },
+
+        "countdown": {
+            "time-until": "Metroon aikaa",
+            "has-begun": "Jyväsmetro on alkanut",
+            "has-ended": "Jyväsmetro on päättynyt"
+        }
+    }
+}

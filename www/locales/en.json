@@ -1,0 +1,67 @@
+{
+    "event": {
+        "name": "Jyväsmetro",
+        "year": "2024",
+        "name-with-year": "Jyväsmetro 2024",
+        "date": "25.04.2024",
+        "organizer": "Linkki Jyväskylä ry"
+    },
+
+    "section": {
+        "guide-application": {
+            "title": "",
+            "p1": "",
+            "p2": "",
+            "apply": ""
+        },
+
+        "info": {
+            "coming-soon": "Coming soon... Follow on <a href=\"https://www.instagram.com/jyvasmetro\">Instagram</a> to stay on track!",
+            "to-sales": "⇓ Ticket sales ⇓",
+            "secondary-market": "Didn't get a ticket or can't use yours? Buy and sell tickets on <a href=\"https://app.ticketless.fi/events/8\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Ticketless</a>!",
+            "p1": "Read more about partners, afterparty and ticket sales below!",
+            "follow": "Keep up with Jyväsmetro by following us on <a href=\"https://www.instagram.com/jyvasmetro/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Instagram</a> and by joining <a href=\"https://t.me/jyvasmetro2024\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">announcement channel on Telegram</a>",
+            "p2": "There will be traditional vibes- and haiku-competition, details will be announced on Instagram on the event day."
+        },
+
+        "what": {
+            "title": "What?",
+            "p1": "The event concept is to visit bars all around of Jyväskylä, from central of Jyväskylä to even neighbouring municipalities.",
+            "p2": "The guides will make sure the atmosphere is top notch and travel comfort is as good as it gets. Since Jyväsmetro is interdisciplinary event, you will also meet students from other associations."
+        },
+
+        "tickets": {
+            "title": "Tickets",
+            "p1": "Student associations' sale begins 1.4. for those, who have reserved stock for their members. Check your associations announcement channel for a link to the sale. <a href=\"https://kide.app/events/85594ebd-1398-4673-8790-eb22346b1489\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">General sale</a> opens 11.4.",
+            "p2": "Elevate your Jyväsmetro experience to the next level by boarding the <a href=\"https://kide.app/events/6dba4777-1309-4c12-b3cf-933a273b0bad\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">VIP-line</a>, which includes among others goody bag, sparkling wine servings and skip-the-line access to the afterparties. VIP-tickets will be available from 1.4."
+        },
+
+        "afterparty": {
+            "title": "Afterparty",
+            "p1": "This year, the metro's afterparties will take us to London, where we'll be entertained with live music."
+        },
+
+        "ticket-exchange": {
+            "title": "Ticket exchange and info"
+        },
+
+        "timetable": {
+            "title": "Timetable"
+        },
+
+        "partners": {
+            "menu-title": "Partners",
+            "title": "Partners 2024"
+        },
+
+        "songs": {
+            "title": "Songs"
+        },
+
+        "countdown": {
+            "time-until": "Time until Jyväsmetro",
+            "has-begun": "Jyväsmetro has begun",
+            "has-ended": "Jyväsmetro has ended"
+        }
+    }
+}
