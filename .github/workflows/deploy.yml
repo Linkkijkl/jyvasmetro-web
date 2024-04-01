@@ -21,8 +21,6 @@ jobs:
       - run: npm install -g static-i18n
       - run: static-i18n -l fi -i fi -i en www -o .
 
-      - name: 
-
       - name: Deploy
         uses: up9cloud/action-rsync@master
         env:
