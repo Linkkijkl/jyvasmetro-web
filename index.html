@@ -52,18 +52,24 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#info">jyväsmetro</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" hidden>
                     <a class="nav-link js-scroll-trigger" href="#matkanjohtajahaku">Matkanjohtajaksi?</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#mita">Mitä?</a>
                 </li>
-                <!--<li class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti">Lipunmyynti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#jatkot">Jatkot</a>
+                </li>
+                <li class="nav-item" hidden>
                     <a class="nav-link js-scroll-trigger" href="#lipunmyynti_vaihto_info">Lipunvaihto ja info</a>
-		</li>-->
-                <!--<li class="nav-item">
+		        </li>
+                <li class="nav-item" hidden>
                     <a class="nav-link js-scroll-trigger" href="#aikataulu">Aikataulu</a>
-		</li>-->
+		        </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#baarit">Yhteistyökumppanit</a>
                 </li>
@@ -89,33 +95,32 @@
 <div id="countdown">
 </div>
 
-<section id="info" class="grey-section">
+<section id="info" class="white-section">
     <div class="container">
         <div class="row row-custom">
-            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
+            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto" hidden>
                 <h1 class="blue-text">Jyväsmetro 2024</h1>
                 <br>
                 <h4>Coming soon... Seuraa <a href="https://www.instagram.com/jyvasmetro">Instassa</a> pysyäksesi matkassa mukana!</h4>
             </div>
-            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto" hidden>
+            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
                 <h1 class="blue-text">Jyväsmetro 2024</h1>
                 <br>
-                <p>Jyväsmetro palaa vanhaan loistoonsa 18.04.2023!</p>
                 <p>
                     <a
-                        class="big-link"
-                        href="https://kide.app/events/2aacf4fd-1425-43da-ab49-b25bc8521390"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        class="big-link js-scroll-trigger"
+                        href="#lipunmyynti"
                         style="color: dodgerblue; font-weight: 600;"
                     >
-                        Linkki lipunmyyntiin
+                    ⇓ Lipunmyyntiin ⇓
                     </a>
                 </p>
                 <p>
                     Jäitkö ilman lippua, tai jäikö lippu ylimääräiseksi? Osta ja myy metroliput 
                     <a
-                        href="https://app.ticketless.fi/events/6437c2ad5c63ee19f6a3f9a4"
+                        href="https://app.ticketless.fi/events/8"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         style="color: dodgerblue; font-weight: 600;"
                     >Ticketless</a>:ssä!
                 </p>
@@ -124,10 +129,14 @@
                 <br>
                 <p>Pysy perillä kaikesta Metroon liittyvästä seuraamalla Jyväsmetroa <a
                         href="https://www.instagram.com/jyvasmetro/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         style="color: dodgerblue; font-weight: 600;"
                     >
                         Instagramissa</a>, sekä liittymällä <a
-                        href="https://t.me/jyvasmetro2023"
+                        href="https://t.me/jyvasmetro2024"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         style="color: dodgerblue; font-weight: 600;"
                     >
                         Telegram-tiedotuskanavalle
@@ -140,7 +149,30 @@
     </div>
 </section>
 
-<section id="matkanjohtajahaku" class="white-section">
+<section id="mita" class="grey-section">
+    <div class="container">
+        <div class="row row-custom">
+            <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
+                <figure class="filter filter-blue">
+                    <img class="event-image" src="images/2022-04.jpg" alt=""/>
+                </figure>
+            </div>
+            <div class="col-lg-6 col-md-6 mx-auto text-align-center">
+                <h2 class="orange-text">Mitä?</h2>
+                <p>Tapahtuman konseptina on kiertää busseilla Jyväskylän lähialueen anniskeluravintoloita rennossa
+                    hengessä ja nauttia hyvästä poikkitieteellisestä seurasta.</p>
+                <p hidden>Vuonna 2023 kiersimme baareja muunmuassa keskustassa, Kortepohjassa, Muuramessa, Keljossa ja
+                    Kuokkalassa. Jatkot järjestettiin illan päätteeksi keskustassa Escapessa, jonne osallistujilla oli
+                    ilmainen sisäänpääsy tapahtumarannekkeella.</p>
+                <p>Busseissa matkustusmukavuudesta ja huipputunnelman ylläpitämisestä vastaavat osaavat ja mukavat
+                    matkanjohtajat. Jyväsmetro on myös poikkitieteellinen tapahtuma, joten pääset myös tutustumaan ja
+                    pitämään hauskaa muiden ainejärjestöjen opiskelijoiden kanssa!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="matkanjohtajahaku" class="white-section" hidden>
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
@@ -158,19 +190,12 @@
     </div>
 </section>
 
-<section id="mita" class="grey-section">
+<section id="lipunmyynti" class="white-section">
     <div class="container">
         <div class="row row-custom">
-            <div class="col-lg-6 col-md-6 mx-auto text-align-center">
-                <h2 class="orange-text">Mitä?</h2>
-                <p>Tapahtuman konseptina on kiertää busseilla Jyväskylän lähialueen anniskeluravintoloita rennossa
-                    hengessä ja nauttia hyvästä poikkitieteellisestä seurasta.</p>
-                <p>Vuonna 2023 kiersimme baareja muunmuassa keskustassa, Kortepohjassa, Muuramessa, Keljossa ja
-                    Kuokkalassa. Jatkot järjestettiin illan päätteeksi keskustassa Escapessa, jonne osallistujilla oli
-                    ilmainen sisäänpääsy tapahtumarannekkeella.</p>
-                <p>Busseissa matkustusmukavuudesta ja huipputunnelman ylläpitämisestä vastaavat osaavat ja mukavat
-                    matkanjohtajat. Jyväsmetro on myös poikkitieteellinen tapahtuma, joten pääset myös tutustumaan ja
-                    pitämään hauskaa muiden ainejärjestöjen opiskelijoiden kanssa!</p>
+            <div class="col-lg-6 col-md-6 mx-auto text-align-center"><h2 class="orange-text">Lipunmyynti</h2>
+                <p>Ainejärjestöjen myynti alkaa 1.4. niiden ainejärjestöjen osalta, jotka ovat varannet oman lippukannan. Linkin lipunmyyntiin löydät oman ainejärjestösi tiedotuskanavasta. <a href="https://kide.app/events/85594ebd-1398-4673-8790-eb22346b1489" target="_blank" rel="noopener noreferrer" style="color: dodgerblue; font-weight: 600;">Yleinen lipunmyynti</a> aukeaa 11.4.</p>
+                <p>Nosta Jyväsmetro kokemuksesi seuraavalle tasolle nousemalla <a href="https://kide.app/events/6dba4777-1309-4c12-b3cf-933a273b0bad" target="_blank" rel="noopener noreferrer" style="color: dodgerblue; font-weight: 600;">VIP-linjan</a> kyytiin. Erikoisuuksiin kuuluu mm. puuhapussi, kuohuviinitarjoilu ja jonon ohitus jatkoille. VIP-linja tulee myyntiin 1.4.</p>
             </div>
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
                 <figure class="filter filter-orange">
@@ -181,7 +206,23 @@
     </div>
 </section>
 
-<section id="lipunmyynti_vaihto_info" class="white-section" hidden>
+<section id="jatkot" class="grey-section">
+    <div class="container">
+        <div class="row row-custom">
+            <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
+                <figure class="filter filter-blue">
+                    <img class="event-image" src="images/2022-01.jpg" alt=""/>
+                </figure>
+            </div>
+            <div class="col-lg-6 col-md-6 mx-auto text-align-center">
+                <h2 class="orange-text">Jatkot</h2>
+                <p>Metrojatkot vievät tänä vuonna Londoniin, jossa on tarjolla live-musiikkia ja mahtavaa menoa!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="lipunmyynti_vaihto_info" class="grey-section" hidden>
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
@@ -243,7 +284,7 @@
     </div>
 </section>
 
-<section id="aikataulu" class="grey-section" hidden>
+<section id="aikataulu" class="white-section" hidden>
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto text-align-center">
@@ -266,26 +307,27 @@
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
-                <h2 class="blue-text">Yhteistyö&shy;kumppanit 2023</h2>
+                <h2 class="blue-text">Yhteistyö&shy;kumppanit 2024</h2>
                 <div class="imgcontainer">
-                    <img src="images/sponsors/Huld.png" class="companyLogo" alt="Huld"/>
-                    <img src="images/sponsors/Ceili.png" class="companyLogo" alt="Ceili"/>
-                    <img src="images/sponsors/Tek.png" class="companyLogo" alt="Tek"/>
-                    <img src="images/sponsors/Webso.png" class="companyLogo" alt="Webso"/>
-                    <img src="images/sponsors/Ticketless.svg" class="companyLogo" alt="Ticketless"/>
-                    <img src="images/sponsors/Escape.png" class="companyLogo" alt="Escape"/>
-                    <img src="images/sponsors/Aalto.png" class="companyLogo" alt="Aalto"/>
-                    <img src="images/sponsors/Hiisi.png" class="companyLogo" alt="Hiisi"/>
-                    <img src="images/sponsors/Teerenpeli.jpg" class="companyLogo" alt="Teerenpeli"/>
-                    <img src="images/sponsors/Cheers.jpg" class="companyLogo" alt="Cheers"/>
-                    <img src="images/sponsors/Kierre.png" class="companyLogo" alt="Kierre"/>
-                    <img src="images/sponsors/Muurmanni.jpg" class="companyLogo" alt="Muurmanni"/>
-                    <img src="images/sponsors/Sherwood.jpg" class="companyLogo" alt="Sherwood"/>
-                    <img src="images/sponsors/Unelma.jpg" class="companyLogo" alt="Unelma"/>
-                    <img src="images/sponsors/Oluttupa.png" class="companyLogo" alt="Oluttupa"/>
-                    <img src="images/sponsors/Paakonttori.png" class="companyLogo" alt="Paakonttori"/>
-                    <img src="images/sponsors/Meidankylabaari.png" class="companyLogo" alt="Meidankylabaari"/>
+                    <img src="images/sponsors/Tuiteri.png" class="companyLogo" alt="Bar Tuiteri"/>
+                    <img src="images/sponsors/Muurmanni.png" class="companyLogo" alt="Muurmanni"/>
+                    <img src="images/sponsors/Juoma.png" class="companyLogo" alt="Pub Juoma"/>
+                    <img src="images/sponsors/Teerenpeli.png" class="companyLogo" alt="Teerenpeli"/>
                     <img src="images/sponsors/Melbourne.png" class="companyLogo" alt="Melbourne"/>
+                    <img src="images/sponsors/Pääkonttori.png" class="companyLogo" alt="Pub Pääkonttori"/>
+                    <img src="images/sponsors/UrkanBaari.png" class="companyLogo" alt="Urkan Baari"/>
+                    <img src="images/sponsors/Cheers.png" class="companyLogo" alt="Cheers"/>
+                    <!-- Myllykki -->
+                    <img src="images/sponsors/Unelma.png" class="companyLogo" alt="Unelma"/>
+                    <img src="images/sponsors/Kierre.png" class="companyLogo" alt="Pub Kierre"/>
+                    <img src="images/sponsors/Kyläbaari.png" class="companyLogo" alt="Meidän Kyläbaari"/>
+                    <img src="images/sponsors/Kaskitupa.png" class="companyLogo" alt="Pub Kaskitupa"/>
+                    <img src="images/sponsors/Hiisi.png" class="companyLogo" alt="Hiisi"/>
+                    <img src="images/sponsors/Vemmelsääri.png" class="companyLogo" alt="Vemmelsääri"/>
+                    <!-- Vihtahousu -->
+                    <img src="images/sponsors/Sherwood.png" class="companyLogo" alt="Sherwood"/>
+                    <img src="images/sponsors/Tuiske.png" class="companyLogo" alt="Bar Tuiske"/>
+                    <!-- London -->
                 </div>
             </div>
         </div>
@@ -370,7 +412,7 @@
         <div id="somet">
             <a href="https://www.facebook.com/jyvasmetro/" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/jyvasmetro/" class="fa fa-instagram"></a>
-	    <!--<a href="https://t.me/jyvasmetro2023" class="fa fa-telegram"></a>-->
+	        <a href="https://t.me/jyvasmetro2024" class="fa fa-telegram"></a>
         </div>
     </div>
     <!-- /.container -->
