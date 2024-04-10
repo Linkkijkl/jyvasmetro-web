@@ -7,6 +7,11 @@
         "organizer": "Linkki Jyväskylä ry"
     },
 
+    "nav": {
+        "change-language-link": "..",
+        "change-language-text": "SUOMEKSI"
+    },
+
     "section": {
         "guide-application": {
             "title": "",

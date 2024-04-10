@@ -7,6 +7,11 @@
         "organizer": "Linkki Jyväskylä ry"
     },
 
+    "nav": {
+        "change-language-link": "en",
+        "change-language-text": "IN ENGLISH"
+    },
+
     "section": {
         "guide-application": {
             "title": "Matkan&shy;johtajaksi?",
