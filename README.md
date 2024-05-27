@@ -1,4 +1,4 @@
-# Jyväsmetro 2023 web pages
+# Jyväsmetro 2024 web pages
 
 ## Development
 To use a development and testing server on localhost:

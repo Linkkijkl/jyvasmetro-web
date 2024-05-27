@@ -117,11 +117,12 @@
                         data-t="section.info.to-sales"
                     ></a>
                 </p>
-                <p data-t>section.info.secondary-market</p>
-                <p data-t>section.info.p1</p>
+                <p data-t>section.info.thanks</p>
+                <p data-t hidden>section.info.secondary-market</p>
+                <p data-t hidden>section.info.p1</p>
                 <br>
                 <p data-t>section.info.follow</p>
-                <p data-t>section.info.p2</p>
+                <p data-t hidden>section.info.p2</p>
             </div>
         </div>
     </div>
@@ -162,7 +163,7 @@
     </div>
 </section>
 
-<section id="lipunmyynti" class="white-section">
+<section id="lipunmyynti" class="white-section" hidden>
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto text-align-center"><h2 class="orange-text" data-t>section.tickets.title</h2>
@@ -178,7 +179,7 @@
     </div>
 </section>
 
-<section id="jatkot" class="grey-section">
+<section id="jatkot" class="grey-section" hidden>
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
@@ -437,9 +438,9 @@
       clearInterval(x);
       // If countdown ended 14 hours ago, change the text to ended, otherwise started
       if (distance < -50400000) {
-        document.getElementById("countdown").innerHTML = document.getElementById("has-begun").innerText;
-      } else {
         document.getElementById("countdown").innerHTML = document.getElementById("has-ended").innerText;
+      } else {
+        document.getElementById("countdown").innerHTML = document.getElementById("has-begun").innerText;
       }
     }
   }, 1000);
