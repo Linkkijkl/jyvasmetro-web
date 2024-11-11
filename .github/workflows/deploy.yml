@@ -28,7 +28,11 @@ jobs:
           ARGS_MORE: --checksum
           VERBOSE: true
           
-          HOST: ${{ secrets.DEPLOY_SSH_HOST }}
+          #HOST: ${{ secrets.DEPLOY_SSH_HOST }}
+          #PORT: ${{ secrets.DEPLOY_SSH_PORT }}
+          HOST: linkkijkl.fi
+          PORT: 40404
           USER: ${{ secrets.DEPLOY_USER }}
           KEY: ${{ secrets.SSH_KEY }}
           TARGET: ${{ secrets.DEPLOY_TARGET }}
+
