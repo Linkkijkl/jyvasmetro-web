@@ -1,8 +1,9 @@
-# Jyväsmetro 2024 web pages
+# Jyväsmetro 2025 web pages
 
 ## Development
 To use a development and testing server on localhost:
-1. If you don't have python, download it
-2. Type `python3 -m http.server` to console
-3. Go to `localhost:8000`
-4. When updating the html, just reload the page. When updating css, restart the server and refresh the page
+1. Make sure you have python and npm installed
+2. Run `npx static-18n -l fi -i fi -i en www -o .` in project root to generate translations
+3. Run `python3 -m http.server` to start local web server
+4. Navigate to [http://localhost:8000]()
+5. When updating the html, do step 2. again and refresh broser. When updating css, restart the server and refresh the page
