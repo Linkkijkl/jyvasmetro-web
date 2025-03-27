@@ -38,13 +38,13 @@
 
         "tickets": {
             "title": "Tickets",
-            "p1": "Student associations' sale begins 1.4. for those, who have reserved stock for their members. Check your associations announcement channel for a link to the sale. <a href=\"https://kide.app/events/85594ebd-1398-4673-8790-eb22346b1489\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">General sale</a> opens 11.4.",
-            "p2": "Elevate your Jyväsmetro experience to the next level by boarding the <a href=\"https://kide.app/events/6dba4777-1309-4c12-b3cf-933a273b0bad\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">VIP-line</a>, which includes among others goody bag, sparkling wine servings and skip-the-line access to the afterparties. VIP-tickets will be available from 1.4."
+            "p1": "Student associations' sale begins 1.4. for those, who have reserved stock for their members. Check your associations announcement channel for a link to the sale. <a href=\"https://kide.app/events/dd28ea32-b08d-4be5-ad2e-93b68f768311\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">General sale</a> opens 15.4.",
+            "p2": "Elevate your Jyväsmetro experience to the next level by boarding the VIP-line, which includes among other things, a goody bag, buffet and skip-the-line access to the afterparties. <a href=\"https://kide.app/events/5c6b597e-b6e1-4f63-b5f1-2fdf1605cb71\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">VIP-line</a> will be available from 1.4."
         },
 
         "afterparty": {
             "title": "Afterparty",
-            "p1": "This year, the metro's afterparties will take us to London, where we'll be entertained with live music."
+            "p1": "This year, the metro's afterparties will take us to Club Escape, where we'll be entertained with live music."
         },
 
         "ticket-exchange": {

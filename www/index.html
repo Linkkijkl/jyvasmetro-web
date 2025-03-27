@@ -56,19 +56,19 @@
                     <a class="nav-link js-scroll-trigger" href="#matkanjohtajahaku" data-t>section.guide-application.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#mita" data-t hidden>section.what.title</a>
+                    <a class="nav-link js-scroll-trigger" href="#mita" data-t>section.what.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti" data-t hidden>section.tickets.title</a>
+                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti" data-t>section.tickets.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#jatkot" data-t hidden>section.afterparty.title</a>
+                    <a class="nav-link js-scroll-trigger" href="#jatkot" data-t>section.afterparty.title</a>
                 </li>
                 <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti_vaihto_info" data-t hidden>section.ticket-exchange.title</a>
+                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti_vaihto_info" data-t>section.ticket-exchange.title</a>
 		        </li>
                 <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#aikataulu" data-t hidden>section.timetable.title</a>
+                    <a class="nav-link js-scroll-trigger" href="#aikataulu" data-t>section.timetable.title</a>
 		        </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#baarit" data-t>section.partners.menu-title</a>
@@ -101,12 +101,12 @@
 <section id="info" class="white-section">
     <div class="container">
         <div class="row row-custom">
-            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
+            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto" hidden>
                 <h1 class="blue-text" data-t>event.name-with-year</h1>
                 <br>
                 <h4 data-t>section.info.coming-soon</h4>
             </div>
-            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto" hidden>
+            <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
                 <h1 class="blue-text" data-t>event.name-with-year</h1>
                 <br>
                 <p>
@@ -117,10 +117,10 @@
                         data-t="section.info.to-sales"
                     ></a>
                 </p>
-                <p data-t>section.info.thanks</p>
-                <p data-t>section.info.secondary-market</p>
+                <p data-t hidden>section.info.thanks</p>
+                <p data-t hidden>section.info.secondary-market</p>
                 <p data-t>section.info.p1</p>
-                <br>
+                <!-- <br> -->  
                 <p data-t>section.info.follow</p>
                 <p data-t>section.info.p2</p>
             </div>
@@ -128,7 +128,7 @@
     </div>
 </section>
 
-<section id="mita" class="grey-section" hidden>
+<section id="mita" class="grey-section">
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
@@ -163,7 +163,7 @@
     </div>
 </section>
 
-<section id="lipunmyynti" class="white-section" hidden>
+<section id="lipunmyynti" class="white-section">
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto text-align-center"><h2 class="orange-text" data-t>section.tickets.title</h2>
@@ -179,7 +179,7 @@
     </div>
 </section>
 
-<section id="jatkot" class="grey-section" hidden>
+<section id="jatkot" class="grey-section">
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-6 col-md-6 mx-auto event-image-wrapper">
@@ -203,7 +203,7 @@
                     <img class="event-image" src="images/2022-01.jpg" alt=""/>
                 </figure>
             </div>
-            <div class="col-lg-6 col-md-6 mx-auto text-align-center" hidden>
+            <div class="col-lg-6 col-md-6 mx-auto text-align-center">
                 <h2 class="blue-text">Lipunmyynti</h2>
                 <p>Jyväsmetron lippuja tullaan myymään tiettyjen ainejärjestöjen omissa lipunmyynneissä 20.3. -
                     24.3. Jokainen ainejärjestö tiedottaa omasta lipunmyynnistään hyvissä ajoin, joten voit kysyä
@@ -276,26 +276,35 @@
     </div>
 </section>
 
-<section id="baarit" class="grey-section">
+<section id="baarit" class="white-section">
     <div class="container">
         <div class="row row-custom">
             <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
                 <h2 class="blue-text" data-t>section.partners.title</h2>
                 <div class="imgcontainer">
                     <img src="/images/sponsors/Tek.png" class="companyLogo" alt="TEK"/>
-                    <img src="/images/sponsors/Teerenpeli.png" class="companyLogo" alt="Teerenpeli"/>
-                    <img src="/images/sponsors/Helmi.png" class="companyLogo" alt="Karaoke Bar Helmi"/>
-                    <img src="/images/sponsors/Ylaruth.svg" class="companyLogo" alt="Yläruth" style="filter: invert(1);"/>
-                    <img src="/images/sponsors/Hiisi.png" class="companyLogo" alt="Hiisi"/>
-                    <img src="/images/sponsors/Delorean.png" class="companyLogo" alt="Delorean"/>
-                    <img src="/images/sponsors/Pääkonttori.png" class="companyLogo" alt="Pub Pääkonttori"/>
-                    <img src="/images/sponsors/Kierre.png" class="companyLogo" alt="Pub Kierre"/>
+                    <img src="/images/sponsors/Jyy.png" class="companyLogo" alt="Jyy" />
+                    <img src="/images/sponsors/Semma.png" class="companyLogo" alt="Semma" />
+
                     <img src="/images/sponsors/Cheers.png" class="companyLogo" alt="Cheers"/>
-                    <img src="/images/sponsors/Unelma.png" class="companyLogo" alt="Unelma"/>
-                    <img src="/images/sponsors/Tuiteri.png" class="companyLogo" alt="Bar Tuiteri"/>
+                    <img src="/images/sponsors/Delorean.png" class="companyLogo" alt="Delorean"/>
+                    <img src="/images/sponsors/Helmi.png" class="companyLogo" alt="Karaoke Bar Helmi"/>
+                    <img src="/images/sponsors/Hiisi.png" class="companyLogo" alt="Hiisi"/>
                     <img src="/images/sponsors/Kaskitupa.png" class="companyLogo" alt="Pub Kaskitupa"/>
-                    <img src="/images/sponsors/Tuiske.png" class="companyLogo" alt="Bar Tuiske"/>
+                    <img src="/images/sponsors/Kierre.png" class="companyLogo" alt="Pub Kierre"/>
+                    <img src="/images/sponsors/Kyläbaari.png" class="companyLogo" alt="Meidän Kyläbaari" />
+                    <img src="/images/sponsors/Luotsivene.png" class="companyLogo" alt="Luotsivene" />
+                    <img src="/images/sponsors/Melbourne.png" class="companyLogo" alt="Melbourne" />
                     <img src="/images/sponsors/Muurmanni.png" class="companyLogo" alt="Muurmanni"/>
+                    <img src="/images/sponsors/Myllykki.png" class="companyLogo" alt="Myllykki" />
+                    <img src="/images/sponsors/Pääkonttori.png" class="companyLogo" alt="Pub Pääkonttori"/>
+                    <img src="/images/sponsors/Teerenpeli.png" class="companyLogo" alt="Teerenpeli"/>
+                    <img src="/images/sponsors/Tuiske.png" class="companyLogo" alt="Bar Tuiske"/>
+                    <img src="/images/sponsors/Tuiteri.png" class="companyLogo" alt="Bar Tuiteri"/>
+                    <img src="/images/sponsors/Unelma.png" class="companyLogo" alt="Unelma"/>
+                    <img src="/images/sponsors/UrkanBaari.png" class="companyLogo" alt="Urkan Baari" />
+                    <img src="/images/sponsors/Vihtahousu.png" class="companyLogo" alt="Vihtahousu" />
+                    <img src="/images/sponsors/Ylaruth.svg" class="companyLogo" alt="Yläruth" style="filter: invert(1);"/>
                 </div>
             </div>
         </div>
@@ -396,7 +405,7 @@
 <!-- Custom JavaScript for this theme -->
 <script src="/js/scripts.js"></script>
 
-<div hidden>
+<div>
     <span id="time-until" data-t>section.countdown.time-until</span>
     <span id="has-begun" data-t>section.countdown.has-begun</span>
     <span id="has-ended" data-t>section.countdown.has-ended</span>

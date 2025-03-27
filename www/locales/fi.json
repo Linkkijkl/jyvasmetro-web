@@ -26,7 +26,7 @@
             "to-sales": "⇓ Lipunmyyntiin ⇓",
             "secondary-market": "Jäitkö ilman lippua, tai jäikö lippu ylimääräiseksi? Osta ja myy metroliput <a href=\"https://app.ticketless.fi/events/8\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Ticketless</a>:ssä!",
             "p1": "Mukana olevista baareista, jatkoista, yhteistyökumppaneista ja lipunmyynnistä voit lukea lisää alta!",
-            "follow": "Pysy perillä kaikesta Metroon liittyvästä seuraamalla Jyväsmetroa <a href=\"https://www.instagram.com/jyvasmetro/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Instagramissa</a>, sekä liittymällä <a href=\"https://t.me/jyvasmetro2024\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Telegram-tiedotuskanavalle</a>",
+            "follow": "Pysy perillä kaikesta Metroon liittyvästä seuraamalla Jyväsmetroa <a href=\"https://www.instagram.com/jyvasmetro/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Instagramissa</a>, sekä liittymällä <a href=\"https://t.me/jyvasmetro2025\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Telegram-tiedotuskanavalle</a>",
             "p2": "Tapahtumapäivänä järjestetään myös klassinen fiilis- ja haikukilpailu, joista tiedotetaan tapahtumapäivänä tapahtuman Instagramissa."
         },
 
@@ -38,13 +38,14 @@
 
         "tickets": {
             "title": "Lipunmyynti",
-            "p1": "Ainejärjestöjen myynti alkaa 1.4. niiden ainejärjestöjen osalta, jotka ovat varannet oman lippukannan. Linkin lipunmyyntiin löydät oman ainejärjestösi tiedotuskanavasta. <a href=\"https://kide.app/events/85594ebd-1398-4673-8790-eb22346b1489\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Yleinen lipunmyynti</a> aukeaa 11.4.",
-            "p2": "Nosta Jyväsmetro kokemuksesi seuraavalle tasolle nousemalla <a href=\"https://kide.app/events/6dba4777-1309-4c12-b3cf-933a273b0bad\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">VIP-linjan</a> kyytiin. Erikoisuuksiin kuuluu mm. puuhapussi, kuohuviinitarjoilu ja jonon ohitus jatkoille. VIP-linja tulee myyntiin 1.4."
+            "p1": "Ainejärjestöjen myynti alkaa 1.4. niiden ainejärjestöjen osalta, jotka ovat varannet oman lippukannan. Linkin lipunmyyntiin löydät oman ainejärjestösi tiedotuskanavasta. <a href=\"https://kide.app/events/dd28ea32-b08d-4be5-ad2e-93b68f768311\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">Yleinen lipunmyynti</a> aukeaa 15.4.",
+            "p2": "Nosta Jyväsmetro kokemuksesi seuraavalle tasolle nousemalla VIP-linjan kyytiin. Erikoisuuksiin kuuluu mm. puuhapussi, buffet ja jonon ohitus jatkoille. <a href=\"https://kide.app/events/5c6b597e-b6e1-4f63-b5f1-2fdf1605cb71\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">VIP-linja</a> tulee myyntiin 1.4.",
+            "linkke": "<a href=\"https://kide.app/events/6dba4777-1309-4c12-b3cf-933a273b0bad\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: dodgerblue; font-weight: 600;\">VIP-linjan</a>"
         },
 
         "afterparty": {
             "title": "Jatkot",
-            "p1": "Metrojatkot vievät tänä vuonna Londoniin, jossa on tarjolla live-musiikkia ja mahtavaa menoa!"
+            "p1": "Metrojatkot vievät tänä vuonna Club Escapeen, jossa on tarjolla live-musiikkia ja mahtavaa menoa!"
         },
 
         "ticket-exchange": {
