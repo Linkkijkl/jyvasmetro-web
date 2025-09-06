@@ -1,0 +1,44 @@
+<div id="countdown"></div>
+
+<div>
+    <span id="time-until" data-t>section.countdown.time-until</span>
+    <span id="has-begun" data-t>section.countdown.has-begun</span>
+    <span id="has-ended" data-t>section.countdown.has-ended</span>
+</div>
+
+<!-- countdown JS-->
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("April 24, 2025 16:00:00").getTime();
+
+  // Update the countdown every 1 second
+  var x = setInterval(function () {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the countdown date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="countdown"
+    document.getElementById("countdown").innerHTML = document.getElementById("time-until").innerText + " " + days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+    // If the countdown is over, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      // If countdown ended 14 hours ago, change the text to ended, otherwise started
+      if (distance < -50400000) {
+        document.getElementById("countdown").innerHTML = document.getElementById("has-ended").innerText;
+      } else {
+        document.getElementById("countdown").innerHTML = document.getElementById("has-begun").innerText;
+      }
+    }
+  }, 1000);
+</script>
