@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "4.3.1",
     "jquery": "^3.7.1",
-    "jquery.easing": "1.4.1"
+    "jquery.easing": "1.4.1",
+    "popper.js": "1.16.1"
   }
 }
