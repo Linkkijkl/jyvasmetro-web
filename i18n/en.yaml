@@ -1,0 +1,32 @@
+- id: name
+  translation: Jyväsmetro
+
+- id: year
+  translation: 2025
+
+- id: name-with-year
+  translation: Jyväsmetro 2025
+
+- id: date
+  translation: 24.4.2025
+
+- id: organizer
+  translation: Linkki Jyväskylä ry
+
+- id: translations
+  translation: SUOMEKSI
+
+- id: partners
+  translation: Partners 2025
+
+- id: songs
+  translation: Songs
+
+- id: countdown-until
+  translation: Time until Jyväsmetro
+
+- id: countdown-begun
+  translation: Jyväsmetro has begun
+
+- id: countdown-has-ended
+  translation: Jyväsmetro has ended
