@@ -1,0 +1,8 @@
+baseURL = 'https://jyvasmetro.fi'
+languageCode = 'fi-fi'
+title = 'Jyväsmetro 2025'
+defaultContentLanguage = 'fi'
+
+staticDir = ["static"]
+
+disableKinds = ["taxonomy"]
