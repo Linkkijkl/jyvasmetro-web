@@ -1,5 +1,9 @@
 +++
 title = 'Lipunmyynti'
+weight = 3
+[params]
+  right-images = ['/images/2022-03.jpg']
+  right-image-filters = ['orange']
 +++
 
 Ainejärjestöjen myynti alkaa 1.4. niiden ainejärjestöjen osalta, jotka ovat varannet oman lippukannan. Linkin lipunmyyntiin löydät oman ainejärjestösi tiedotuskanavasta. [Yleinen lipunmyynti](/) aukeaa <PÄIVÄMÄÄRÄ>.

@@ -1,5 +1,6 @@
 +++
 title = 'Lipunvaihto ja info'
+weight = 5
 +++
 
 Metrolinjat lähtevät liikkeelle Agoralta (Mattilanniemi 2, 40100 Jyväskylä). Lähtöpaikan vieressä Agoran takana on lipunvaihtopiste, jossa voit vaihtaa lippusi rannekkeeseen, sekä Metropiknik, jossa voit nauttia hyvästä seurasta ja metrotunnelmasta jo ennen tapahtuman alkua!

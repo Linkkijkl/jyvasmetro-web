@@ -1,5 +1,9 @@
 +++
 title = 'Tickets'
+weight = 3
+[params]
+  right-images = ['/images/2022-03.jpg']
+  right-image-filters = ['orange']
 +++
 
 Student associations' sale begins 1.4. for those, who have reserved stock for their members. Check your associations announcement channel for a link to the sale. [General sale](/) opens <DATE>.

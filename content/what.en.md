@@ -1,5 +1,9 @@
 +++
 title = 'What?'
+weight = 1
+[params]
+  left-images = ['/images/2022-04.jpg']
+  left-image-filters = ['blue']
 +++
 
 The event concept is to visit bars all around of Jyväskylä, from central of Jyväskylä to even neighbouring municipalities.

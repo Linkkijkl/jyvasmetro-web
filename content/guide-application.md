@@ -1,5 +1,9 @@
 +++
 title = 'Matkanjohtajaksi?'
+weight = 2
+[params]
+  left-images = ['/images/2022-04.jpg']
+  left-image-filters = ['blue']
 +++
 
 Jyväsmetro on historiansa suurin vuonna 2024, joten tarvitsemme entistä enemmän matkanjohtajia huolehtimaan metrolinjojen tunnelmasta. Jos siis haluat ikioman metrolinjan josta voit tehdä oman näköisesi, jätä hakemus matkanjohtajatiimiin alla.

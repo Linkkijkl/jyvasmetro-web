@@ -1,5 +1,9 @@
 +++
 title = 'Mitä?'
+weight = 1
+[params]
+  left-images = ['/images/2022-04.jpg']
+  left-image-filters = ['blue']
 +++
 
 Tapahtuman konseptina on kiertää busseilla Jyväskylän lähialueen anniskeluravintoloita rennossa hengessä ja nauttia hyvästä poikkitieteellisestä seurasta.
