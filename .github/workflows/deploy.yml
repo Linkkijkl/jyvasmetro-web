@@ -1,38 +1,47 @@
-name: Deploy to production
+name: Deploy to host
 on:
   push:
+    paths-ignore:
+      - README.md
     branches:
       - main
 jobs:
   deploy:
-    name: Deploy to production
+    name: Deploy to host
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./  
+        working-directory: ./
     steps:
       - name: Check out code
         uses: actions/checkout@v4
-
-      - name: Build translations
-        uses: actions/setup-node@v4
         with:
-          node-version: 18
-      - run: npm install -g static-i18n
-      - run: static-i18n -l fi -i fi -i en www -o .
-
+          lfs: true
+      
+      - name: Pull node modules
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.139.4'
+          extended: true
+      
+      - name: Build
+        run: | 
+          hugo --minify
+      
       - name: Deploy
         uses: up9cloud/action-rsync@master
         env:
-          SOURCE: ./
+          SOURCE: ./public/
           ARGS_MORE: --checksum
           VERBOSE: true
-          
-          #HOST: ${{ secrets.DEPLOY_SSH_HOST }}
-          #PORT: ${{ secrets.DEPLOY_SSH_PORT }}
-          HOST: linkkijkl.fi
-          PORT: 40404
+
+          HOST: ${{ secrets.DEPLOY_SSH_HOST }}
+          PORT: ${{ secrets.DEPLOY_SSH_PORT }}
           USER: ${{ secrets.DEPLOY_USER }}
           KEY: ${{ secrets.SSH_KEY }}
           TARGET: ${{ secrets.DEPLOY_TARGET }}
-
