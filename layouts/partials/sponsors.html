@@ -3,7 +3,9 @@
         <div class="row row-custom">
             <div class="col-lg-8 col-md-6 col-sm 4 mx-auto">
                 <h2 class="blue-text" data-t>{{ i18n "partners" }}</h2>
-                <div class="imgcontainer">
+                <div class="sponsors">
+                    
+                    {{/*                      
                     <img src="/images/sponsors/Tek.png" class="companyLogo" alt="TEK"/>
                     <img src="/images/sponsors/Jyy.png" class="companyLogo" alt="Jyy" />
                     <img src="/images/sponsors/Semma.png" class="companyLogo" alt="Semma" />
@@ -15,18 +17,28 @@
                     <img src="/images/sponsors/Kaskitupa.png" class="companyLogo" alt="Pub Kaskitupa"/>
                     <img src="/images/sponsors/Kierre.png" class="companyLogo" alt="Pub Kierre"/>
                     <img src="/images/sponsors/Kyläbaari.png" class="companyLogo" alt="Meidän Kyläbaari" />
+
                     <img src="/images/sponsors/Luotsivene.png" class="companyLogo" alt="Luotsivene" />
                     <img src="/images/sponsors/Melbourne.png" class="companyLogo" alt="Melbourne" />
                     <img src="/images/sponsors/Muurmanni.png" class="companyLogo" alt="Muurmanni"/>
                     <img src="/images/sponsors/Myllykki.png" class="companyLogo" alt="Myllykki" />
                     <img src="/images/sponsors/Pääkonttori.png" class="companyLogo" alt="Pub Pääkonttori"/>
+
                     <img src="/images/sponsors/Teerenpeli.png" class="companyLogo" alt="Teerenpeli"/>
                     <img src="/images/sponsors/Tuiske.png" class="companyLogo" alt="Bar Tuiske"/>
                     <img src="/images/sponsors/Tuiteri.png" class="companyLogo" alt="Bar Tuiteri"/>
                     <img src="/images/sponsors/Unelma.png" class="companyLogo" alt="Unelma"/>
                     <img src="/images/sponsors/UrkanBaari.png" class="companyLogo" alt="Urkan Baari" />
                     <img src="/images/sponsors/Vihtahousu.png" class="companyLogo" alt="Vihtahousu" />
+
                     <img src="/images/sponsors/Ylaruth.svg" class="companyLogo" alt="Yläruth" style="filter: invert(1);"/>
+                    */}}
+
+                    {{ $sortedByName := sort site.Data.sponsors "name" "asc" }}
+                    {{ $sortedByImportance := sort $sortedByName "important" "desc" }}
+                    {{ range $sortedByImportance }}
+                        <img src="{{ .image }}" alt="{{ .name }}" class="companyLogo" {{ with .invert }}style="filter: invert(1);"{{ end }}/>
+                    {{ end }}
                 </div>
             </div>
         </div>
