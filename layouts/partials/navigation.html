@@ -8,36 +8,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
+                {{/* Visible pages */}}
+                {{ range site.RegularPages }}
+                    <a class="nav-link js-scroll-trigger" href="#{{ replace .LinkTitle " " "-" | strings.ToLower }}">{{ .LinkTitle }}</a>
+                {{ end }}
+
+                {{/* Songs */}}
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#info" data-t>event.name</a>
+                    <a class="nav-link js-scroll-trigger" href="/laulut" data-t>{{ i18n "songs" }}</a>
                 </li>
-                <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#matkanjohtajahaku" data-t>section.guide-application.title</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#mita" data-t>section.what.title</a>
-                </li>
-                <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti" data-t>section.tickets.title</a>
-                </li>
-                <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#jatkot" data-t>section.afterparty.title</a>
-                </li>
-                <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#lipunmyynti_vaihto_info" data-t>section.ticket-exchange.title</a>
-		        </li>
-                <li class="nav-item" hidden>
-                    <a class="nav-link js-scroll-trigger" href="#aikataulu" data-t>section.timetable.title</a>
-		        </li>
-                <li class="nav-item" >
-                    <a class="nav-link js-scroll-trigger" href="#baarit" data-t>section.partners.menu-title</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="/laulut" data-t>section.songs.title</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" data-attr-t href-t="nav.change-language-link" data-t>nav.change-language-text</a>
-                </li>
+
+                {{/* Available languages */}}
+                {{ range page.Translations }}
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                    </li>
+                {{ end }}
             </ul>
         </div>
     </div>

@@ -5,10 +5,10 @@ title = 'Jyväsmetro 2025'
 defaultContentLanguage = 'fi'
 [languages]
   [languages.fi]
-    languageName = 'Suomi'
+    languageName = 'suomeksi'
     weight = 1
   [languages.en]
-    languageName = 'English'
+    languageName = 'in English'
     weight = 2
 
 staticDir = ["static"]
