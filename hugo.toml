@@ -20,4 +20,5 @@ disableKinds = ["taxonomy"]
   year = "2025"
   date = "24.4.2025"
   organizer = "Linkki Jyväskylä ry"
+  homepage = "https://linkkijkl.fi"
   countdown = "April 24, 2025 16:00:00"

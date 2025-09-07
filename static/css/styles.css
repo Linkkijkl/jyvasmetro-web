@@ -1,4 +1,4 @@
-img {
+.container img {
   max-width: 100%;
 }
 
@@ -237,6 +237,7 @@ iframe {
 
 .companyLogo {
   padding: 5%;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 475px) {
