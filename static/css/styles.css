@@ -1,5 +1,5 @@
-* {
-  max-width: 100%; /* todo: remove global rule */
+img {
+  max-width: 100%;
 }
 
 @font-face {
@@ -237,7 +237,6 @@ iframe {
 
 .companyLogo {
   padding: 5%;
-  width: 100%;
 }
 
 @media (max-width: 475px) {
@@ -262,4 +261,12 @@ iframe {
   font-size: min(6vw, 60px);
   text-align: center;
   -webkit-text-stroke: 0.05em white;
+}
+
+.container h1,h2,h3,h4,h5,p {
+  padding-bottom: 0.5em;
+}
+
+.main-content {
+  max-width: 1200px;
 }
