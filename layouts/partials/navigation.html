@@ -10,8 +10,15 @@
             <ul class="navbar-nav ml-auto">
                 {{/* Visible pages */}}
                 {{ range site.RegularPages }}
-                    <a class="nav-link js-scroll-trigger" href="#{{ replace .LinkTitle " " "-" | strings.ToLower }}">{{ .LinkTitle }}</a>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#{{ replace .LinkTitle " " "-" | strings.ToLower }}">{{ .LinkTitle }}</a>
+                    </li>
                 {{ end }}
+
+                {{/* Sponsors */}}
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#{{ i18n "partners" | strings.ToLower }}">{{ i18n "partners" }}</a>
+                </li>
 
                 {{/* Songs */}}
                 <li class="nav-item">

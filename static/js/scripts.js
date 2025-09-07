@@ -28,23 +28,26 @@
 
 })(jQuery); // End of use strict
 
-// Sponsor layout
-let sponsors = new Masonry( ".sponsors", {
-    itemSelector: ".sponsor",
-    columnWidth: ".sponsor",
-    percentPosition: true,
-});
 
-// Reload masonry after images load fully
-let debounceTimeout = null;
-const DEBOUNCE_TIME = 200;
-for (const sponsor of document.querySelectorAll('.sponsors img')) {
-    sponsor.addEventListener('load', () => {
-        if (debounceTimeout) {
-            clearTimeout(debounceTimeout);
-        }
-        debounceTimeout = setTimeout(() => {
-            sponsors.masonry();
-        }, DEBOUNCE_TIME);
-    }, {once: true});
-};
+document.addEventListener("DOMContentLoaded", () => {
+  // Sponsor layout
+  let sponsors = new Masonry( ".sponsors", {
+      itemSelector: ".sponsor",
+      columnWidth: ".sponsor",
+      percentPosition: true,
+  });
+
+  // Reload masonry after images load fully
+  let debounceTimeout = null;
+  const DEBOUNCE_TIME = 200;
+  for (const sponsor of document.querySelectorAll('.sponsors img')) {
+      sponsor.addEventListener('load', () => {
+          if (debounceTimeout) {
+              clearTimeout(debounceTimeout);
+          }
+          debounceTimeout = setTimeout(() => {
+              sponsors.layout();
+          }, DEBOUNCE_TIME);
+      }, {once: true});
+  };
+});
