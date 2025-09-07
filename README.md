@@ -1,9 +1,15 @@
-# Jyväsmetro 2025 web pages
+# Jyväsmetro web pages
 
-## Development
-To use a development and testing server on localhost:
-1. Make sure you have python and npm installed
-2. Run `npx static-i18n -l fi -i fi -i en www -o .` in project root to generate translations
-3. Run `python3 -m http.server` to start local web server
-4. Navigate to [http://localhost:8000]()
-5. When updating the html, do step 2. again and refresh broser. When updating css, restart the server and refresh the page
+Sources for <https://jyvasmetro.fi>.
+Make sure you have [git lfs](https://git-lfs.com/) installed before cloning.
+
+## Development in Linux
+1. Using Linux, install [Hugo](https://gohugo.io/) and [Yarn](https://yarnpkg.com/).
+2. In project root, run `yarn` and then `hugo server`
+
+## Development with Devcontainers (any OS which runs Docker)
+1. Open this project with your [tool with Devcontainers support](https://containers.dev/supporting)
+2. Run `hugo server` from terminal inside the container
+
+## Tips
+Most of the content is marked with `draft = true`, which means that it will not get into production builds. Running hugo with `--buildDrafts` will override that behaviour.
