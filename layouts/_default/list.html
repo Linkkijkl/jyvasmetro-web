@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{/* Main content */}}
-  <section id="main" class="white-section">
+  <section id="{{ .Param "id" }}" class="white-section">
     <div class="container">
       <div class="row-custom">
         <div class="col-md-8 mx-auto">
@@ -21,7 +21,7 @@
     {{ end }}
     {{ $odd = not $odd }}
 
-    <section id="{{ replace .LinkTitle " " "-" | strings.ToLower }}" class="{{ $sectionClass }}">
+    <section id="{{ .Param "id" }}" class="{{ $sectionClass }}">
       <div class="container">
         <div class="row row-custom">
           {{ if isSet .Params "left-images" }}

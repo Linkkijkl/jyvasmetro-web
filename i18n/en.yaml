@@ -1,6 +1,9 @@
 - id: partners
   translation: Partners
 
+- id: partners-id
+  translation: partners
+
 - id: songs
   translation: Songs
 

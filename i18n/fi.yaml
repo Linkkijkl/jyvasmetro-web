@@ -1,6 +1,9 @@
 - id: partners
   translation: Yhteistyökumppanit
 
+- id: partners-id
+  translation: yhteistyokumppanit
+
 - id: songs
   translation: Laulut
 

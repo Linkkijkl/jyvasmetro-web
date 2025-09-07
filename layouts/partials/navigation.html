@@ -11,13 +11,13 @@
                 {{/* Visible pages */}}
                 {{ range site.RegularPages }}
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#{{ replace .LinkTitle " " "-" | strings.ToLower }}">{{ .LinkTitle }}</a>
+                        <a class="nav-link js-scroll-trigger" href="#{{ .Param "id" }}">{{ .LinkTitle }}</a>
                     </li>
                 {{ end }}
 
                 {{/* Sponsors */}}
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#{{ i18n "partners" | strings.ToLower }}">{{ i18n "partners" }}</a>
+                    <a class="nav-link js-scroll-trigger" href="#{{ i18n "partners-id" }}">{{ i18n "partners" }}</a>
                 </li>
 
                 {{/* Songs */}}

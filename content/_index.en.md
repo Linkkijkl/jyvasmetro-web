@@ -1,5 +1,7 @@
 +++
 title = 'Jyväsmetro 2025'
+[params]
+  id = 'info'
 +++
 
 <!--
