@@ -2,7 +2,7 @@
   <div class="container">
     <div class="d-flex justify-content-center">
       <div class="col-md-11">
-        <h2 class="blue-text" data-t>{{ i18n "partners" }}</h2>
+        <h2 class="blue-text" data-t>{{ i18n "partners" }} {{ site.Param "year" }}</h2>
         <div class="sponsors">
           {{ $sortedByName := sort site.Data.sponsors "name" "asc" }}
           {{ $sortedByImportance := sort $sortedByName "important" "desc" }}

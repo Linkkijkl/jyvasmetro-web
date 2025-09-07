@@ -1,20 +1,5 @@
-- id: name
-  translation: Jyväsmetro
-
-- id: year
-  translation: "2025"
-
-- id: name-with-year
-  translation: Jyväsmetro 2025
-
-- id: date
-  translation: 24.4.2025
-
-- id: organizer
-  translation: Linkki Jyväskylä ry
-
 - id: partners
-  translation: Yhteistyökumppanit 2025
+  translation: Yhteistyökumppanit
 
 - id: songs
   translation: Laulut
@@ -25,5 +10,5 @@
 - id: countdown-begun
   translation: Jyväsmetro on alkanut
 
-- id: countdown-has-ended
+- id: countdown-ended
   translation: Jyväsmetro on päättynyt

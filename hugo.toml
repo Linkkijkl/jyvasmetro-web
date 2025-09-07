@@ -14,3 +14,10 @@ defaultContentLanguage = 'fi'
 staticDir = ["static"]
 
 disableKinds = ["taxonomy"]
+
+[params]
+  name = "Jyväsmetro"
+  year = "2025"
+  date = "24.4.2025"
+  organizer = "Linkki Jyväskylä ry"
+  countdown = "April 24, 2025 16:00:00"

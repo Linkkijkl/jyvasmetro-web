@@ -4,12 +4,13 @@
     <span id="time-until" data-t hidden>{{ i18n "countdown-until" }}</span>
     <span id="has-begun" data-t hidden>{{ i18n "countdown-begun" }}</span>
     <span id="has-ended" data-t hidden>{{ i18n "countdown-ended" }}</span>
+    <span id="countdown-to" data-t hidden>{{ site.Param "countdown" }}</span>
 </div>
 
 <!-- countdown JS-->
 <script>
   // Set the date we're counting down to
-  var countDownDate = new Date("April 24, 2025 16:00:00").getTime();
+  var countDownDate = new Date(document.getElementById("countdown-to").innerText).getTime();
 
   // Update the countdown every 1 second
   var x = setInterval(function () {
