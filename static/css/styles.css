@@ -1,5 +1,5 @@
 * {
-  max-width: 100% !important;
+  max-width: 100%; /* todo: remove global rule */
 }
 
 @font-face {
@@ -236,11 +236,8 @@ iframe {
 }
 
 .companyLogo {
-  display: block;
-  padding: 2%;
-  width: auto;
-  height: auto;
-  max-height: 180px;
+  padding: 5%;
+  width: 100%;
 }
 
 @media (max-width: 475px) {
