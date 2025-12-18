@@ -1,6 +1,6 @@
 baseURL = 'https://jyvasmetro.fi'
 languageCode = 'fi-fi'
-title = 'Jyväsmetro 2025'
+title = 'Jyväsmetro 2026'
 
 defaultContentLanguage = 'fi'
 [languages]
@@ -17,8 +17,9 @@ disableKinds = ["taxonomy"]
 
 [params]
   name = "Jyväsmetro"
-  year = "2025"
-  date = "24.4.2025"
+  year = "2026"
+  sponsors-year = "2025"
+  date = "23.4.2026"
   organizer = "Linkki Jyväskylä ry"
   homepage = "https://linkkijkl.fi"
-  countdown = "April 24, 2025 16:00:00"
+  countdown = "April 23, 2026 16:00:00"

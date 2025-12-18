@@ -1,15 +1,24 @@
 #!/bin/sh
-# Creates links to all required dependencies, so that they become available to Hugo.
 
-rm -Rf assets/node && mkdir -p assets/node
-# Bootstrap
-link node_modules/bootstrap/dist/js/bootstrap.bundle.min.js assets/node/bootstrap.bundle.min.js
-link node_modules/bootstrap/dist/css/bootstrap.min.css assets/node/bootstrap.min.css
-# JQuery
-link node_modules/jquery/dist/jquery.min.js assets/node/jquery.min.js
-# Popper.js
-link node_modules/popper.js/dist/popper.min.js assets/node/popper.min.js
-# Jquery.easing
-link node_modules/jquery.easing/jquery.easing.min.js assets/node/jquery.easing.min.js
-# Masonry-layout
-link node_modules/masonry-layout/dist/masonry.pkgd.min.js assets/node/masonry.pkgd.min.js
+# Creates links to all required dependencies, so that they become available to Hugo.
+# Defined dependencies from below will get linked to $link_dir
+
+link_dir="assets/node"
+
+# Define dependencies
+set -- \
+    node_modules/bootstrap/dist/js/bootstrap.bundle.min.js \
+    node_modules/bootstrap/dist/css/bootstrap.min.css \
+    node_modules/jquery/dist/jquery.min.js \
+    node_modules/popper.js/dist/popper.min.js \
+    node_modules/jquery.easing/jquery.easing.min.js \
+    node_modules/masonry-layout/dist/masonry.pkgd.min.js
+
+
+# Clear previous links and make sure link directory exists
+rm -Rf "$link_dir" && mkdir -p "$link_dir"
+
+for path in "$@"; do
+    filename=$(basename "$path")
+    link "$path" "$link_dir"/"$filename"
+done

@@ -12,5 +12,12 @@ Make sure you have [git lfs](https://git-lfs.com/) installed before cloning.
 2. Build and run Devctontainer
 3. Run `hugo server` from terminal inside the container
 
+## Adding new dependencies
+1. Run `yarn add <yourpackage>`
+2. Find the distributable files inside the packages directory, i.e `node_modules/bootstrap/dist/js/bootstrap.bundle.js`
+3. Add distributable files to `link-node-dependencies.sh` in project root
+4. Run `yarn`, which will invoke `link-node-dependencies.sh`
+5. Finally link js files to `layouts/partials/scripts.html` and css to `layouts/partials/headers.html`
+
 ## Tips
 Most of the content has `draft = true` in its front matter, which means that it will not get into production builds. Running hugo with `--buildDrafts` will override this behaviour.
