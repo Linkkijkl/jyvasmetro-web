@@ -1,15 +1,15 @@
 +++
 title = 'Matkanjohtajaksi?'
 weight = 2
-draft = true
+draft = false
 [params]
-  left-images = ['/images/2022-04.jpg']
-  left-image-filters = ['blue']
+  right-images = ['/images/sininen2.jpg']
+  right-image-filters = ['blue']
   id = 'matkanjohtajahaku'
 +++
 
-Jyväsmetro on historiansa suurin vuonna 2024, joten tarvitsemme entistä enemmän matkanjohtajia huolehtimaan metrolinjojen tunnelmasta. Jos siis haluat ikioman metrolinjan josta voit tehdä oman näköisesi, jätä hakemus matkanjohtajatiimiin alla.
+Jyväsmetron matkajohtajahaku on auennut vuodelle 2026. Jos siis haluat ikioman metrolinjan josta voit tehdä oman näköisesi, jätä hakemus matkanjohtajatiimiin alla.
 
 Matkanjohtajat saavat työstään myös hienoja etuja, kuten ilmaisen pääsyn tapahtumaan, pääsyn jatkoille jonon ohi sekä drinkkilippuja. Järjestäminen näyttää myös hyvältä CV:ssä, sekä saat hienon Jyväsmetro-paidan!
 
-[Hae matkanjohtajaksi tästä](/)
+[Hae matkanjohtajaksi tästä](https://forms.gle/ttY2zFugoBNMFBXf9)
