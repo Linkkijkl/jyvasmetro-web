@@ -1,7 +1,7 @@
 +++
 title = 'Matkanjohtajaksi?'
 weight = 2
-draft = false
+draft = true
 [params]
   right-images = ['/images/sininen2.jpg']
   right-image-filters = ['blue']
