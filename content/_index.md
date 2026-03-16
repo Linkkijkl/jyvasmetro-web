@@ -4,7 +4,11 @@ title = 'Jyväsmetro 2026'
   id = 'info'
 +++
 
-Coming soon... Seuraa [Instagramissa](https://www.instagram.com/jyvasmetro) ja [Telegramissa](https://t.me/jyvasmetro2025) pysyäksesi matkassa mukana!
+Coming soon...  
+Seuraa [Instagramissa](https://www.instagram.com/jyvasmetro) pysyäksesi matkassa mukana!
+<!--
+ ja [Telegramissa](https://t.me/jyvasmetro2025)
+ -->
 <!--
 Mukana olevista baareista, jatkoista, yhteistyökumppaneista ja lipunmyynnistä voit lukea lisää alta!
 -->
