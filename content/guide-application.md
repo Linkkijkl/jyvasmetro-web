@@ -1,6 +1,6 @@
 +++
 title = 'Matkanjohtajaksi?'
-weight = 2
+weight = 3
 draft = true
 [params]
   right-images = ['/images/sininen2.jpg']

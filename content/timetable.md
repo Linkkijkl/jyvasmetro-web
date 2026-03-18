@@ -1,6 +1,6 @@
 +++
 title ='Aikataulu'
-weight = 6
+weight = 7
 draft = true
 [params]
   right-images = ['/images/2022-02.jpg', '/images/2022-04.jpg']

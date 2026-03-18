@@ -1,5 +1,5 @@
 +++
-title = 'What?'
+title = 'What is Jyväsmetro?'
 weight = 1
 [params]
   left-images = ['/images/2022-04.jpg']

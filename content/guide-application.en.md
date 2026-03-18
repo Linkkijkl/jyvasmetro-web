@@ -1,6 +1,6 @@
 +++
 title = 'Guide Application'
-weight = 2
+weight = 3
 draft = true
 [params]
   left-images = ['/images/2022-04.jpg']
