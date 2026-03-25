@@ -1,11 +1,7 @@
 +++
 title ='Aikataulu'
 weight = 7
-draft = true
-[params]
-  right-images = ['/images/2022-02.jpg', '/images/2022-04.jpg']
-  right-image-filters = ['blue', 'orange']
-  id = 'aikataulu'
+draft = false
 +++
 
-![Aikataulu](/images/Aikataulu.jpg)
+![Aikataulu](/images/Linjat_lahtoaikataulu.jpg)

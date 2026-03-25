@@ -1,11 +1,7 @@
 +++
 title ='Timetable'
 weight = 7
-draft = true
-[params]
-  right-images = ['/images/2022-02.jpg', '/images/2022-04.jpg']
-  right-image-filters = ['blue', 'orange']
-  id = 'timetable'
+draft = false
 +++
 
-![Timetable](/images/Aikataulu.jpg)
+![Timetable](/images/Linjat_lahtoaikataulu_en.jpg)

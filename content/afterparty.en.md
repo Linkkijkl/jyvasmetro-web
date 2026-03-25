@@ -1,10 +1,10 @@
 +++
 title = 'Afterparty'
 weight = 5
-draft = true
+draft = false
 [params]
-  left-images = ['/images/2022-01.jpg']
-  left-image-filters = ['blue']
+  right-images = ['/images/2022-01.jpg']
+  right-image-filters = ['blue']
   id = 'afterparty'
 +++
 
