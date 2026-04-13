@@ -4,7 +4,6 @@ title = 'Jyväsmetro 2026'
   id = 'info'
 +++
 
-Coming soon...  
 Seuraa [Instagramissa](https://www.instagram.com/jyvasmetro) pysyäksesi matkassa mukana!
 <!--
  ja [Telegramissa](https://t.me/jyvasmetro2025)
