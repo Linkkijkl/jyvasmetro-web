@@ -1,7 +1,7 @@
 +++
 title = 'Ticket Exchange and Information'
-weight = 6
-draft = true
+weight = 4
+draft = false
 [params]
   id = 'ticket-exchange'
 +++
@@ -12,13 +12,16 @@ Metro boarding location is at Agora (Mattilanniemi 2, 40100 Jyväskylä).
 ### Ticket Exchange locations:
 
 **Tuesday 21.4.**   
-at 12:00-15:00 Agora and Jamk  
+at 12:00-15:00  
+Agora & Jamk Main Campus 
 
 **Wednesday 22.4.**  
-at 12:00-15:00 Agora and Lähde  
+at 12:00-15:00  
+Agora & Lähde library 
 
 **Thursday 23.4.**  
-at 12:00-17:30 Agora
+at 12:00-17:30  
+Agora
 
 We recommend exchanging tickets before the day of the event to avoid biggest traffic.
 

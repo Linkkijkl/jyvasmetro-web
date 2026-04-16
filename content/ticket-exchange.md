@@ -1,25 +1,26 @@
 +++
 title = 'Lipunvaihto ja info'
-weight = 6
-draft = true
+weight = 4
+draft = false
 [params]
   id = 'lipunvaihto'
 +++
 
 Metrolinjat lähtevät liikkeelle Agoralta (Mattilanniemi 2, 40100 Jyväskylä).
 
-Tapahtumaan osallistujat saavat tapahtumaa edeltävän viikonlopun aikana sähköpostiviestin, jossa on linkki linjan omaan telegramryhmään, ekä yleiseen telegram-tiedotuskanavaan. Linjan omasta ryhmästä tavoitat myös linjasi matkanjohtajan.
-
 ### Lipunvaihtopisteet:
 
 **Tiistai 21.4.**  
-klo. 12:00-15:00 Agora ja Jamk  
+klo. 12:00-15:00  
+Agora & Jamk Pääkampus 
 
 **Keskiviikko 22.4.**  
-klo. 12:00-15:00 Agora ja Lähde  
+klo. 12:00-15:00  
+Agora & kirjasto Lähde 
 
 **Torstai 23.4**  
-klo. 12:00-17:30 Agora
+klo. 12:00-17:30  
+Agora
 
 Suosittelemme vaihtamaan liput jo ennen tapahtumapäivää suurimman ruuhkan välttämiseksi.
 
