@@ -6,7 +6,7 @@ draft = false
   id = 'lipunvaihto'
 +++
 
-Metrolinjat lähtevät liikkeelle Agoralta (Mattilanniemi 2, 40100 Jyväskylä).
+Lipunvaihdossa saat tapahtumarannekkeen Kide-lippua vastaan. Metrolinjat lähtevät liikkeelle Agoralta (Mattilanniemi 2, 40100 Jyväskylä).
 
 ### Lipunvaihtopisteet:
 

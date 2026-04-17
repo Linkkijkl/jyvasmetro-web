@@ -6,7 +6,7 @@ draft = false
   id = 'ticket-exchange'
 +++
 
-Metro boarding location is at Agora (Mattilanniemi 2, 40100 Jyväskylä).  
+Event wristbands are given at ticket-exchange locations in exchange for Kide-tickets. Metro boarding location is at Agora (Mattilanniemi 2, 40100 Jyväskylä).  
 
 
 ### Ticket Exchange locations:
@@ -23,6 +23,6 @@ Agora & Lähde library
 at 12:00-17:30  
 Agora
 
-We recommend exchanging tickets before the day of the event to avoid biggest traffic.
+We recommend exchanging tickets before the day of the event to avoid the worst traffic.
 
-You can ask a friend to excange ticket for you, in case you are can't access ticket exchange yourself, or you can arrange exchange with your Metro Guide.
+You can ask a friend to excange a ticket for you, in case you can't access ticket exchange yourself. Alternatively you can arrange exchange with your Metro Guide.
