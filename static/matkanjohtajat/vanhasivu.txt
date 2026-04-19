@@ -14,28 +14,24 @@
         <h2>Ennen Bussia</h2>
         <p>Varmista, että sinulla on seuraavat mukana / päällä:</p>
         <ul>
-            <li>Matkanjohtajien kitti</li>
-            <li>Pieniä muovipusseja oksennuspusseiksi</li>
-            <!-- <li>Isoja Muovipusseja pulloja varten</li> -->
-            <li>Käsitys <b>aikatauluista</b></li>
+            <li>Pieniä Muovipusseja oksennuspusseiksi</li>
+            <li>Isoja Muovipusseja pulloja varten</li>
+            <li>Käsitys <a href="#aikataulu">aikatauluista</a></li>
             <li>Kyky ohjata matkustajat laulusivulle ja linjan TG-ryhmiin</li>
-            <!-- <li>Oma ranneke ja haalarimerkki</li> -->
-            <li>Haalarimerkki</li>
-            <li>Matkanjohtajapaita</li>
-            <li>Laturi / akkupankki puhelimelle</li>
+            <li>Oma ranneke ja haalarimerkki</li>
+            <li>Matkanjohtaja -paita</li>
+            <li>Laturi / Akkupankki puhelimelle</li>
             <li>Juomista, myös vettä, evästä (reppuun)</li>
-            <!-- <li>Styrol</li> -->
+            <li>Styrol</li>
             <li>Sijainninjako päälle metron TG ryhmään</li>
         </ul>
         <h2>Ennen bussien lähtöä</h2>
         <p>
-            Hae matkanjohtajapaita, haalarimerkki ja muu tarvittava rannekkeenvaihdosta Agoralta. 
-            Ole Agoran takapihalla hyvissä ajoin, <b>VÄHINTÄÄN 30 min ennen</b> oman linjan lähtöaikaa. 
-        </p>
-        <p>
-            Siirtykää 5 min ennen oman linjan  lähtöaikaa Agoran takapihalta bussipysäkille ja 
-            hypätkää heti bussiin aiheuttamatta suurempaa häröpalloa bussipysäkille. Agoran 
-            työmaa aiheuttaa tilanpuutetta bussipysäkillä, joten bussiin nousun tulee tapahtua sutjakkaasti.
+            Hae matkanjohtajapaita ja tapahtumaranneke rannekkeenvaihdosta, sekä roskapussit
+            ja muu tarvittava. Mene lähtöpysäkille hyvissä ajoin ennen oman linjan lähtöä,
+            esim. 5-10min ENNENKUIN bussi on pysäkillä. Kerkeät heti bussin kyytiin ja nopeasti
+            kuskin kanssa jutella että onko tuttu tapahtuma ja vaihtaa puhelinnumerot.
+            Sitten bussin ovelle oman linjan lappu ojossa ja huutelemaan porukkaa sisään.
         </p>
         <h2>Agoralla, bussin täyttyessä</h2>
         <p>
@@ -46,24 +42,25 @@
             jotta tarvittaessa voit soittaa jos bussia ei vaikka näy kun pitäisi jo baaria
             vaihtaa. Odota, että suurinpiirtein kaikki löytävät bussiin, mutta <b>älä anna
                 lähdön myöhästyä paljoa (max 2 min)</b>. Myöhästyneet pääsevät kyytiin esim.
-            keskustan pysäkeiltä tai taksilla. <!-- Linjan ylimääräiset rannekkeet annetaan
-            matkanjohtajalle joten pystyt ottamaan mattimyöhäset mukaan. --> Ota luku
-            ihmisten noustessa bussiin edestä. 
+            keskustan pysäkeiltä tai taksilla. Linjan ylimääräiset rannekkeet annetaan
+            matkanjohtajalle joten pystyt ottamaan mattimyöhäset mukaan. Ota luku
+            ihmisten noustessa bussiin edestä.
 
         </p>
         <h2>Ensimmäisellä matkalla</h2>
         <p>
             Lähtökuulutus (alla). Tämän jälkeen esittele itsesi ja selitä Jyväsmetron idea lyhyesti.
-            <b>Muistuta, että siivousmaksu on 150€ ja sen maksaa sotkija</b>. Selitä oma roolisi
+            <b>Muistuta, että oksennusmaksu 150€ ja sen maksaa oksentaja</b>. Selitä oma roolisi
             (matkanjohtajaa kannattaa kuunnella ja että saa tulla vetään hihasta jne). Kerro,
             että linjan häirintäyhdyshenkilönä toimii matkanjohtaja / varamatkanjohtaja (miten
             olette sopineet), sekä että tapahtumassa on voimassa JYY:n turvallisen tapahtuman
             ohjeet. Kannusta pitämään kaverista huolta ja seuraamaan jos joku puuttuu kyydistä.
-            Sovi muiden kanssa missä otetaan yhteiskuva (ei pakollinen). Kerro, että Teerenepelissä
-            on valokuvausseinä ja jos teidän linjalla on valokuvajaa niin ilmoita myös tästä.
-            Linjan yhteiskuvan voi ottaa sopivana hetkenä huomioiden ympäristön bussin edessä (varaa tähän 5 min extra-aikaa). 
-            Mitä pienempi paikka sen helpompi saada kaikki mukaan. Kerro, että ihmiset voi jättää tavaraa 
-            bussiin pysäkkien välillä. Kerro myös tg ryhmästä tai laita QR kiertämään.
+            Sovi muiden kanssa missä otetaan yhteiskuva (ei pakollinen). Kerro, että keskustassa
+            on valokuuvaja ja jos teidän linjalla on valokuvajaa / GoPro niin ilmoita myös tästä.
+            Linjan yhteiskuvan voi ottaa esim. ensimmäisen baarin jälkeen bussin edessä (varaa
+            tähän 5 min extra-aikaa). Mitä pienempi paikka sen helpompi saada kaikki mukaan.
+            Kerro, että ihmiset voi jättää tavaraa bussiin pysäkkien välillä. Kerro myös tg
+            ryhmästä tai laita QR kiertämään.
         </p>
         <h2>Matkoilla</h2>
         <p>
@@ -73,38 +70,34 @@
             esilaulajaa penkeiltä tai mikkiin. Ennen seuraavaa pysäkkiä ilmoita monelta lähtö
             on ja kuinka monta minuuttia siihen on. Sano ihmisille lähtöajaksi 5 min aiempi
             lähtöaika jotta lähtö ei myöhästy. Kannusta ihmisiä pitään jonkilainen siivo ja
-            pistää tölkkejä pusseihin. Tarkista bussikuskilta, että saahan tölkkipussit jättää bussiin. 
-            Muista muistutttaa bussikuskia mihin baariin mennään seuraavaksi ja milloin. Jos matkustajalla tulee huono olo
-            niin nopeesti pussia tarjolle ja seuraavalla pysäkillä vettä. <b>Muistuta, että baareihin EI saa ottaa omia juomia</b>.
-        </p>
-        <p>
-            Muistuta, <b>että liikkuvassa bussissa EI saa liikkua</b>.
-            <br /><br/>
+            pistää tölkkejä pusseihin. Tölkit voi jättää bussiin. Muista muistutttaa bussikuskia
+            mihin baariin mennään seuraavaksi ja milloin. Jos matkustajalla tulee huono olo
+            niin nopeesti pussia tarjolle ja seuraavalla pysäkillä vettä. <b>Muistuta, että baareihin ei omia juomia</b>
+            <br />
             Muistuta viimeisellä pysäkillä (keskustassa) osallistujia ottamaan omat tavarat mukaan.
-            <br /><br/>
+            <br />
             Muista, että jos linjasi viimeiset pysäkit ovat keskustassa, lähtee bussi teidät keskustaan
-            jättäessään! Bussin siivous ja tölkit voi jättää bussiin! Eli jos viimeinen baarisi on Teerenpeli,
-            Onni, Matsi tms., ei bussi tule takaisin enää kun on teidät sinne jättänyt! Muissa tapauksissa bussi
-            jättää teidät matkakeskukselle.
+            jättäessään! Bussin siivous ja tölkit voi jättää bussiin! Eli jos viimeiset bussisi ovat Teerenpeli,
+            Onni tai Matsi, ei bussi tule takaisin enää kun on teidät sinne jättänyt!!!
         </p>
         <h2>Pysäkillä</h2>
         <p>
             <b>Muista ottaa rennosti</b>. Huutele ihmisille bussin lähdöstä baarin mentäessä ja ennen lähtöä.
             Alussa ja tiivissä paikoissa riittää 5 min muistutus. Humalatilan ja mahdollisesti pysäkkien
             kasvaessa huutele 10-15 min etukäteen. Jos joku ei löydä bussiin huutelusta huolimatta ja
-            aikataulusta ollaan jo jäljessä, lähtekää matkaan. Eksynyt voi hypätä seuraavaan kyytiin (<b>vain</b> jos on tilaa)
+            aikataulusta ollaan jo jäljessä, lähtekää matkaan. Eksynyt voi hypätä seuraavaan kyytiin
             tai tilata taksin. Etenkin loppuillasta kannattaa laittaa pelivaraa bussiin siirtymiseen.
         </p>
         <h2>Viimeisellä matkalla</h2>
         <p>
             Viimeisellä matkalla kohti jatkoja: Muistuta, että jatkopaikkana on Club Escape ja että
-            sinne pääsee rannekkeella. Matkanjohtajat pääsevät matkanjohtajapaidoillaan sisälle. 
-            Muistuta ihmisiä ottamaan kaikki omat tavarat ja roskat mukaan, löytötavarat menee Pohjolan matkalle.
-            <br/>
-            <b>Kiittäkää bussikuskia</b> matkanjohtajan johdolla yhteisesti kun rukka on joutunut 
-            (toivottavasti) selvinpäin kestämään kuusi tuntia. <b>Kiitä myös mukana olleita matkustajia</b>
-            niin jää kiva mielikuva yms. Tervetuloa ensi vuonna yms. ;). Lopuksi kierrä bussin kaikki paikat
-            ja ota löytötavarat mukaan ja toimita Kattilaan (Agora, Ag B102) lähipäivinä.
+            sinne pääsee rannekkeelle, narikka on matkanjohtajille maksettu. Varamatkanjohtaja on
+            päämatkanjohtajan +1 narikassa, joten kulkekaa kahden. Muistuta ihmisiä ottamaan kaikki
+            omat tavarat ja roskat mukaan, löytötavarat menee Pohjolan matkalle. <b>Kiittäkää bussikuskia</b>
+            matkanjohtajan johdolla yhteisesti kun rukka on joutunut (toivottavasti) selvinpäin kestämään
+            kuusi tuntia. <b>Kiitä myös mukana olleita matkustajia</b> niin jää kiva mielikuva yms.
+            Tervetuloa ensi vuonna yms. ;). Lopuksi kierrä bussin kaikki paikat ja ota löytötavarat
+            mukaan ja toimita Kattilaan (Ag B437) lähipäivinä.
         </p>
     </div>
 
@@ -269,7 +262,7 @@
     </div>
 
     <div id="nippelitieto">
-        <h1>Nippelitietoa baareista</h1>
+        <h1>Nippelitieto</h1>
         <ul>
             <li>
                 <h2>Pub Kierre - Kortepohja</h2>
