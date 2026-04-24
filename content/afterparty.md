@@ -1,7 +1,7 @@
 +++
 title = 'Jatkot'
 weight = 5
-draft = false
+draft = true
 [params]
   right-images = ['/images/2022-01.jpg']
   right-image-filters = ['blue']

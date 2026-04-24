@@ -1,7 +1,7 @@
 +++
 title ='Aikataulu'
 weight = 7
-draft = false
+draft = true
 +++
 
 ![Aikataulu](/images/Linjat_lahtoaikataulu.jpg)

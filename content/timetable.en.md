@@ -1,7 +1,7 @@
 +++
 title ='Timetable'
 weight = 7
-draft = false
+draft = true
 +++
 
 ![Timetable](/images/Linjat_lahtoaikataulu_en.jpg)

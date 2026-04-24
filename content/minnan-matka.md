@@ -1,7 +1,7 @@
 +++
 title ='Minnan matka'
 weight = 2
-draft = false
+draft = true
 [params]
   right-images = ['/images/minnan-matka-transparent.png']
   right-image-filters = ['']

@@ -1,7 +1,7 @@
 +++
 title = 'Ticket Exchange and Information'
 weight = 4
-draft = false
+draft = true
 [params]
   id = 'ticket-exchange'
 +++

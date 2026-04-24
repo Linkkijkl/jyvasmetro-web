@@ -1,7 +1,7 @@
 +++
 title = 'Lipunvaihto ja info'
 weight = 4
-draft = false
+draft = true
 [params]
   id = 'lipunvaihto'
 +++
